@@ -1,0 +1,3197 @@
+# Translation of Plugins - Yoast SEO - Stable (latest release) in Croatian
+# This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-14 17:45:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: hr\n"
+"Project-Id-Version: Plugins - Yoast SEO - Stable (latest release)\n"
+
+#. translators: 1: Yoast SEO Premium 2: Link start tag to activate premium, 3:
+#. Link closing tag.
+#: src/integrations/admin/deactivated-premium-integration.php:86
+msgid "You've installed %1$s but it's not activated yet. %2$sActivate %1$s now!%3$s"
+msgstr "Instalirali ste %1$s ali još nije aktivirano. %2$sAktivirajte %1$s odmah!%3$s"
+
+#: src/integrations/admin/crawl-settings-integration.php:248
+msgid "Please use a comma to separate multiple URL parameters."
+msgstr "Molimo vas da koristite zarez kod odvajanja više URL parametara."
+
+#: src/config/wordproof-translations.php:88
+msgid "Contact WordProof support"
+msgstr "Kontaktiraj WordProof podršku"
+
+#: src/services/health-check/postname-permalink-check.php:47
+msgid "Postname permalink"
+msgstr "Trajna veza sa imenom posta"
+
+#: src/services/health-check/page-comments-check.php:47
+msgid "Page comments"
+msgstr "Komentari na stranici"
+
+#: src/services/health-check/links-table-check.php:47
+msgid "Links table"
+msgstr "Tablica veza"
+
+#: src/integrations/admin/import-integration.php:218
+msgid "If you already have saved AIOSEO 'Search Appearance' settings and the issue persists, please contact our support team so we can take a closer look."
+msgstr "Ako ste već spremili postavke AIOSEO 'Search Appearance', a problem i dalje postoji, kontaktirajte naš tim za podršku kako bismo ih mogli pobliže pogledati."
+
+#: src/integrations/admin/import-integration.php:215
+msgid "If you have never saved any AIOSEO 'Search Appearance' settings, please do that first and run the import again."
+msgstr "Ako nikada niste spremili postavke AIOSEO 'Search Appearance', učinite to prvo i ponovno pokrenite uvoz."
+
+#: src/integrations/admin/import-integration.php:212
+msgid "The AIOSEO import was cancelled because some AIOSEO data is missing. Please try and take the following steps to fix this:"
+msgstr "AIOSEO uvoz je otkazan jer nedostaju neki AIOSEO podaci.  Pokušajte poduzeti sljedeće korake da to popravite:"
+
+#: src/exceptions/importing/aioseo-validation-exception.php:17
+msgid "The validation of the AIOSEO data structure has failed."
+msgstr "Provjera valjanosti strukture podataka AIOSEO nije uspjela."
+
+#. translators: %s expands to Wincher
+#. translators: %s expands to WordProof
+#: src/integrations/third-party/wincher.php:121
+#: src/integrations/third-party/wordproof-integration-toggle.php:129
+#: src/integrations/third-party/wordproof-integration-toggle.php:151
+msgid "Currently, the %s integration is not available for multisites."
+msgstr "Trenutno integracija %s nije dostupna za više stranica."
+
+#: src/integrations/admin/import-integration.php:234
+msgid "Cleanup failed with the following error:"
+msgstr "Čišćenje nije uspjelo uz grešku kako slijedi:"
+
+#: src/integrations/admin/import-integration.php:118
+msgid "Note: These settings will overwrite the default settings of Yoast SEO."
+msgstr "Poruka:  Ove postavke će poništiti osnovne postavke Yoast SEO."
+
+#: src/integrations/admin/import-integration.php:114
+#: src/integrations/admin/import-integration.php:124
+msgid "Note: This metadata will only be imported if there is no existing Yoast SEO metadata yet."
+msgstr "Poruka: Ovi meta podaci će biti uveženi ako nema postojećih Yoast SEO meta podataka."
+
+#: src/integrations/admin/import-integration.php:113
+#: src/integrations/admin/import-integration.php:123
+msgid "Post metadata (SEO titles, descriptions, etc.)"
+msgstr "Objavi meta podatke (SEO naslovi, opisi, itd.)"
+
+#. translators: %s: expands to the name of the plugin that is selected to be
+#. imported
+#: src/integrations/admin/import-integration.php:109
+msgid "The import from %s includes:"
+msgstr "Uvoz iz %s uključuje:"
+
+#: src/integrations/admin/import-integration.php:107
+msgid "Once you're certain that your site is working properly with the imported data from another SEO plugin, you can clean up all the original data from that plugin."
+msgstr "Nakon što ste sigurni da vaša stranica ispravno radi s uvezenim podacima iz drugog SEO dodatka, možete očistiti sve izvorne podatke iz tog dodatka."
+
+#: src/integrations/admin/import-integration.php:106
+msgid "Please select an SEO plugin below to see what data can be imported."
+msgstr "Molimo odaberite SEO dodatak da bi vidjeli koji podaci mogu biti importirani."
+
+#: src/integrations/admin/import-integration.php:105
+msgid "Clean up"
+msgstr "Očisti"
+
+#: src/integrations/admin/import-integration.php:97
+msgid "After you've imported data from another SEO plugin, please make sure to clean up all the original data from that plugin. (step 5)"
+msgstr "Nakon što importirate podatke s drugog SEO dodatka, molimo obrišite sve originalne podatke tog dodatka (korak 5)"
+
+#: src/integrations/admin/import-integration.php:96
+msgid "Note: "
+msgstr "Bilješka:"
+
+#: src/integrations/admin/import-integration.php:95
+msgid "The cleanup can take a long time depending on your site's size."
+msgstr "Brisanje može potrajati duže vrijeme ovisno o veličini vašeg websitea"
+
+#: src/services/health-check/default-tagline-check.php:47
+msgid "Default tagline"
+msgstr "Postavljeni naslov"
+
+#: src/integrations/admin/import-integration.php:236
+msgid "Import failed with the following error:"
+msgstr "Import nije uspio zbog sljedeće greške:"
+
+#: src/integrations/admin/import-integration.php:99
+msgid "No data found from other SEO plugins."
+msgstr "Nisu pronadjeni podaci drugih SEO dodataka."
+
+#: src/integrations/admin/import-integration.php:98
+msgid "Select SEO plugin"
+msgstr "Odaberite SEO dodatak"
+
+#: src/integrations/admin/import-integration.php:94
+msgid "The import can take a long time depending on your site's size."
+msgstr "Import može potrajati duže vrijeme ovisno o veličini vašeg websitea."
+
+#: src/integrations/admin/installation-success-integration.php:104
+msgid "Installation Successful"
+msgstr "Instalacija uspjela"
+
+#: src/config/schema-types.php:131
+msgid "Blog Post"
+msgstr "Blog objava"
+
+#. translators: %s: 'Wincher'
+#: src/integrations/third-party/wincher.php:72
+msgid "The %s integration offers the option to track specific keyphrases and gain insights in their positions."
+msgstr "Integracija %s nudi mogućnost praćenja određenih ključnih fraza i stjecanja uvida u njihove pozicije."
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#. translators: 1: Yoast WooCommerce SEO
+#: src/integrations/admin/workouts-integration.php:309
+#: js/dist/integrations-page.js:17
+msgid "Activate %s"
+msgstr "Aktivirajte %s"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:303
+msgid "Update %s"
+msgstr "Ažuriraj %s"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:296
+msgid "Renew %s"
+msgstr "Obnovi %s"
+
+#: src/integrations/admin/workouts-integration.php:238
+msgid "Get help activating your subscription"
+msgstr "Potražite pomoć za aktivaciju vaše pretplate"
+
+#. translators: 1: expands to 'Yoast SEO Premium', 2: Link start tag to the
+#. page to update Premium, 3: Link closing tag.
+#: src/integrations/admin/workouts-integration.php:232
+msgid "It looks like you’re running an outdated and unactivated version of %1$s, please activate your subscription in %2$sMyYoast%3$s and update to the latest version (at least 17.7) to gain access to our updated workouts section."
+msgstr "Čini se da koristite zastarjelu i neaktiviranu verziju %1$s, aktivirajte svoju pretplatu u %2$sMyYoast%3$s i ažurirajte na najnoviju verziju (najmanje 17.7) da biste dobili pristup našem ažuriranom odjeljku za vježbanje ."
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:228
+msgid "Activate your subscription of %s"
+msgstr "Aktivirajte svoju pretplatu %s"
+
+#. translators: 1: expands to 'Yoast SEO Premium', 2: Link start tag to the
+#. page to update Premium, 3: Link closing tag.
+#: src/integrations/admin/workouts-integration.php:219
+msgid "It looks like you're running an outdated version of %1$s, please %2$supdate to the latest version (at least 17.7)%3$s to gain access to our updated workouts section."
+msgstr "Čini se da koristite zastarjelu verziju %1$s, ažurirajte %2$s na najnoviju verziju (najmanje 17.7)%3$s kako biste dobili pristup našem ažuriranom workout odjeljku."
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:216
+msgid "Update to the latest version of %s"
+msgstr "Ažurirajte na najnoviju verziju %s"
+
+#: src/integrations/admin/workouts-integration.php:209
+msgid "Renew your subscription"
+msgstr "Obnovite svoju pretplatu"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:202
+msgid "Accessing the latest workouts requires an updated version of %s (at least 17.7), but it looks like your subscription has expired. Please renew your subscription to update and gain access to all the latest features."
+msgstr "Za pristup najnovijim treninzima potrebna je ažurirana verzija %s (najmanje 17.7), ali izgleda da je vaša pretplata istekla.  Molimo obnovite svoju pretplatu da biste ažurirali i dobili pristup svim najnovijim značajkama."
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:199
+msgid "Renew your subscription of %s"
+msgstr "Obnovite pretplatu %s"
+
+#: inc/class-wpseo-replace-vars.php:1498
+msgid "Current or first category title"
+msgstr "Trenutno od prve kategorije naslova"
+
+#: inc/class-wpseo-replace-vars.php:1498
+msgid "Category Title"
+msgstr "Naslov kategorije"
+
+#: inc/class-wpseo-replace-vars.php:1497
+msgid "Replaced with the post content"
+msgstr "Zamijenjeno sadržajem objave"
+
+#: inc/class-wpseo-replace-vars.php:1497
+msgid "Post Content"
+msgstr "Sadržaj objave"
+
+#: inc/class-wpseo-replace-vars.php:1496
+msgid "Replaced with the permalink"
+msgstr "Zamijenjeno permalinkom"
+
+#: inc/class-wpseo-replace-vars.php:1495
+msgid "Replaced with the last name of the author"
+msgstr "Zamijenjeno prezimenom autora"
+
+#: inc/class-wpseo-replace-vars.php:1495
+msgid "Author last name"
+msgstr "Prezime autora"
+
+#: inc/class-wpseo-replace-vars.php:1494
+msgid "Replaced with the first name of the author"
+msgstr "Zamijenjeno imenom autora"
+
+#: inc/class-wpseo-replace-vars.php:1494
+msgid "Author first name"
+msgstr "Ime autora"
+
+#: inc/class-wpseo-replace-vars.php:1493
+msgid "Replaced with the day the post was published"
+msgstr "Zamijenjeno danom objavljivanja objave"
+
+#: inc/class-wpseo-replace-vars.php:1493
+msgid "Post day"
+msgstr "Dan objave posta"
+
+#: inc/class-wpseo-replace-vars.php:1492
+msgid "Replaced with the month the post was published"
+msgstr "Zamijenjeno mjesecom objavljivanja objave"
+
+#: inc/class-wpseo-replace-vars.php:1492
+msgid "Post month"
+msgstr "Mjesec objave"
+
+#: inc/class-wpseo-replace-vars.php:1491
+msgid "Replaced with the year the post was published"
+msgstr "Zamijenjeno godinom objave"
+
+#: inc/class-wpseo-replace-vars.php:1491
+msgid "Post year"
+msgstr "Godina objave"
+
+#: inc/class-wpseo-replace-vars.php:1490
+msgid "Current day"
+msgstr "Današnji dan"
+
+#: inc/class-wpseo-replace-vars.php:1489
+msgid "Current month"
+msgstr "Trenutni mjesec"
+
+#: inc/class-wpseo-replace-vars.php:1487
+msgid "Current date"
+msgstr "Trenutni datum"
+
+#: src/schema-templates/cooking-time.block.php:12
+msgid "The time it takes to actually cook the dish."
+msgstr "Vrijeme koje je potrebno da se zapravo skuha jelo"
+
+#: src/schema-templates/cooking-time.block.php:12
+msgid "Recipe cooking time"
+msgstr "Vrijeme kuhanja"
+
+#: src/integrations/admin/workouts-integration.php:93
+msgid "Workouts"
+msgstr "Vježbe"
+
+#: src/schema-templates/recipe-instructions.block.php:15
+msgid "Instructions"
+msgstr "Uputstva"
+
+#: src/schema-templates/recipe-ingredients.block.php:14
+msgid "Ingredients"
+msgstr "Sastojci"
+
+#: admin/views/class-yoast-feature-toggles.php:129
+msgid "Read more about how internal linking can improve your site structure."
+msgstr "Pročitajte više o tome kako unutrašnje povezivanje može poboljšati vašu web-stranicu."
+
+#: admin/views/class-yoast-feature-toggles.php:125 js/dist/new-settings.js:14
+#: js/dist/new-settings.js:238
+msgid "Link suggestions"
+msgstr "Poveznica prijedlozi"
+
+#: admin/views/class-yoast-feature-toggles.php:116 js/dist/block-editor.js:439
+#: js/dist/classic-editor.js:435 js/dist/elementor.js:439
+#: js/dist/new-settings.js:14 js/dist/new-settings.js:238
+msgid "Insights"
+msgstr "Uvidi"
+
+#: admin/views/redirects.php:22
+#: src/deprecated/src/integrations/admin/social-templates-integration.php:280
+#: src/integrations/admin/crawl-settings-integration.php:331
+#: js/dist/integrations-page.js:3 js/dist/integrations-page.js:27
+msgid "Unlock with Premium"
+msgstr "Otključaj sa Premium"
+
+#: src/integrations/admin/addon-installation/installation-integration.php:185
+msgid "You are not allowed to install plugins."
+msgstr "Nije ti dozvoljeno da instaliraš dodatke "
+
+#. Translators: %s expands to the name of the addon.
+#: src/integrations/admin/addon-installation/installation-integration.php:181
+msgid "Addon installed."
+msgstr "Dodatak instaliran"
+
+#: src/integrations/admin/addon-installation/installation-integration.php:153
+msgid "You are not allowed to activate plugins."
+msgstr "Nažalost nemate dopuštenje za uključivanje ovog dodatka."
+
+#. Translators: %s expands to the name of the addon.
+#: src/integrations/admin/addon-installation/installation-integration.php:151
+msgid "Addon activated."
+msgstr "Dodatak je aktiviran."
+
+#. translators: %1$s expands to an anchor tag to the admin premium page, %2$s
+#. expands to Yoast SEO Premium, %3$s expands to a closing anchor tag
+#: src/integrations/admin/addon-installation/installation-integration.php:126
+msgid "%1$s Continue to %2$s%3$s"
+msgstr "%1$s Nastavi do %2$s%3$s"
+
+#. translators: %s expands to Yoast SEO Premium.
+#: admin/class-admin.php:250
+msgid "Required by %s"
+msgstr "Zahtjevan od %s"
+
+#. Translators: %1$s resolves to Yoast SEO.
+#: src/integrations/watchers/addon-update-watcher.php:93
+msgid "Auto-updates are disabled based on this setting for %1$s."
+msgstr "Automatska ažuriranja onemogućena su na temelju ove postavke za %1$s."
+
+#. Translators: %1$s resolves to Yoast SEO.
+#: src/integrations/watchers/addon-update-watcher.php:83
+msgid "Auto-updates are enabled based on this setting for %1$s."
+msgstr "Automatska ažuriranja omogućena su na temelju ove postavke za %1$s."
+
+#: src/presenters/admin/badge-presenter.php:80
+#: src/presenters/admin/badge-presenter.php:87
+#: js/dist/externals/componentsNew.js:136 js/dist/integrations-page.js:3
+#: js/dist/integrations-page.js:27
+msgid "New"
+msgstr "Novi"
+
+#: src/exceptions/indexable/post-not-found-exception.php:16
+msgid "The post could not be found."
+msgstr "Objava nije pronađena."
+
+#. translators: %s is the reason given by WordPress.
+#: src/exceptions/indexable/invalid-term-exception.php:21
+msgid "The term is considered invalid. The following reason was given by WordPress: %s"
+msgstr "Izraz se smatra nevaljanim. WordPress je dao sljedeći razlog: %s"
+
+#: src/presenters/admin/indexing-notification-presenter.php:81
+msgid "Because of a change in your category base setting, some of your SEO data needs to be reprocessed."
+msgstr "Zbog promjena u vašim osnovnim postavkama za kategorije neki od vaših SEO podataka morat će se ponovo obraditi."
+
+#: admin/views/class-yoast-feature-toggles.php:190
+msgid "Find out how a rich snippet can improve visibility and click-through-rate."
+msgstr "Saznajte kako rich snipet može povećati vidljivost i CTR (broj klikova)"
+
+#: admin/views/class-yoast-feature-toggles.php:187
+msgid "Enhanced Slack sharing"
+msgstr "Poboljšana Slack dijeljenja"
+
+#. translators: 1: Expands to Yoast SEO
+#: src/presenters/admin/indexing-notification-presenter.php:129
+msgid "Wait for a week or so, until %1$s automatically processes most of your content in the background."
+msgstr "Pričekajte otprilike tjedan dana dok %1$s automatski ne procesuira većinu vašeg sadržaja u pozadini."
+
+#. translators: %s expands to the reading time number, in minutes
+#: src/presenters/slack/enhanced-data-presenter.php:55
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minuta"
+msgstr[1] "%s minute"
+msgstr[2] "%s minuta"
+
+#. translators: %s expands to the reading time number, in minutes
+#: src/presenters/slack/enhanced-data-presenter.php:55
+msgid "Est. reading time"
+msgstr "Procijenjeno vrijeme čitanja"
+
+#: src/presenters/slack/enhanced-data-presenter.php:50
+msgid "Written by"
+msgstr "Napisao/la"
+
+#: inc/class-wpseo-admin-bar-menu.php:433
+msgid "Google Rich Results Test"
+msgstr "Googleov Rich Result Test"
+
+#: src/presenters/admin/indexing-notification-presenter.php:84
+msgid "Because of a change in your tag base setting, some of your SEO data needs to be reprocessed."
+msgstr "Zbog promjena u vašim osnovnim postavkama oznaka, neki od vaših SEO podataka bit će ponovno obrađeni."
+
+#: admin/class-admin.php:261
+msgid "Activate your subscription"
+msgstr "Aktivirajte svoju pretplatu"
+
+#: src/integrations/watchers/indexable-homeurl-watcher.php:97
+msgid "All permalinks were successfully reset"
+msgstr "Sve trajne veze su uspješno vraćene u izvorno stanje"
+
+#: src/presenters/admin/indexing-notification-presenter.php:96
+msgid "You can speed up your site and get insight into your internal linking structure by letting us perform a few optimizations to the way SEO data is stored. "
+msgstr "Možete ubrzati svoje web sjedište i dobiti uvid u svoju unutarnju strukturu povezivanja dopuštajući nam da izvršimo nekoliko optimizacija načina pohrane SEO podataka."
+
+#: src/presenters/admin/indexing-notification-presenter.php:59
+#: js/dist/first-time-configuration.js:4 js/dist/indexation.js:8
+msgid "Start SEO data optimization"
+msgstr "Započni optimizaciju SEO podataka"
+
+#: src/presenters/admin/indexing-list-item-presenter.php:42
+msgid "Learn more about the benefits of optimized SEO data."
+msgstr "Naučite više o koristima optimiziranih SEO podataka."
+
+#: src/presenters/admin/indexing-list-item-presenter.php:40
+msgid "You can speed up your site and get insight into your internal linking structure by letting us perform a few optimizations to the way SEO data is stored. If you have a lot of content it might take a while, but trust us, it's worth it."
+msgstr "Možete ubrzati svoje web sjedište i dobiti uvid u svoju unutarnju strukturu povezivanja dopuštajući nam da izvršimo nekoliko optimizacija načina pohrane SEO podataka. Ako imate veliku količinu podataka to može potrajati neko vrijeme, ali vjerujte nam, isplati se."
+
+#: src/presenters/admin/indexing-list-item-presenter.php:37
+msgid "Optimize SEO Data"
+msgstr "Optimizirajte SEO podatke"
+
+#: src/presenters/admin/indexing-error-presenter.php:71
+#: src/presenters/admin/indexing-failed-notification-presenter.php:71
+msgid "If the problem persists, please contact support."
+msgstr "Ako se problem ponavlja, molimo vas kontaktirajte podršku."
+
+#. Translators: %1$s expands to an opening anchor tag for a link leading to the
+#. Yoast SEO tools page, %2$s expands to a closing anchor tag.
+#: src/presenters/admin/indexing-failed-notification-presenter.php:59
+msgid "Something has gone wrong and we couldn't complete the optimization of your SEO data. Please %1$sre-start the process%2$s."
+msgstr "Nešto je pogrešno i ne možemo završiti optimizaciju vaših SEO podataka. Molim vas %1$spokrenite ponovno postupak%2$s."
+
+#. translators: %s expands to a mailto support link.
+#: inc/class-addon-manager.php:816
+msgid "If you still need support and have an active subscription for this product, please email %s."
+msgstr "Ako i dalje trebate podršku i imate aktivnu pretplatu za ovaj proizvod, pošaljite poruku na e-mail %s."
+
+#. translators: 1: expands to <a> that refers to the help page, 2: </a> closing
+#. tag.
+#: inc/class-addon-manager.php:813
+msgid "You can probably find an answer to your question in our %1$shelp center%2$s."
+msgstr "Vjerojatno možete pronaći odgovor na vaše pitanje u našem %1$scenturu za podršku%2$s."
+
+#: inc/class-addon-manager.php:810
+msgid "Need support?"
+msgstr "Trebate podršku?"
+
+#. translators: %1$s: expands to an opening anchor tag, %2$s: expands to a
+#. closing anchor tag
+#: admin/views/class-yoast-feature-toggles.php:230
+msgid "Disabling Yoast SEO's XML sitemaps will not disable WordPress' core sitemaps. In some cases, this %1$s may result in SEO errors on your site%2$s. These may be reported in Google Search Console and other tools."
+msgstr "Onemogućavanje XML web-mapa Yoast SEO-a neće onemogućiti WordPressove osnovne karte web-mjesta. U nekim slučajevima ovaj %1$s može rezultirati SEO pogreškama na vašoj web lokaciji%2$s. Ovo može biti vidljivo u izvješću Google Search Consoleu i drugim alatima."
+
+#. translators: 1: Yoast SEO, 2: translated version of "Off"
+#: admin/views/class-yoast-feature-toggles.php:158
+msgid "The advanced section of the %1$s meta box allows a user to remove posts from the search results or change the canonical. The settings in the schema tab allows a user to change schema meta data for a post. These are things you might not want any author to do. That's why, by default, only editors and administrators can do this. Setting to \"%2$s\" allows all users to change these settings."
+msgstr "Napredni odjeljak metaokvira %1$s omogućuje korisniku uklanjanje postova iz rezultata pretraživanja ili promjenu kanonskog. Postavke na kartici sheme omogućuju korisniku da promijeni meta podatke sheme za post. To su stvari koje možda ne biste željeli da radi bilo koji autor. Zbog toga to prema zadanim postavkama mogu raditi samo urednici i administratori. Postavljanje na \"%2$s\" omogućuje svim korisnicima da promijene ove postavke."
+
+#: admin/views/class-yoast-feature-toggles.php:154
+msgid "Security: no advanced or schema settings for authors"
+msgstr "Sigurnost: bez naprednih ili postavki sheme za autore"
+
+#: src/config/schema-types.php:159
+msgid "Report"
+msgstr "Izvještaj"
+
+#: src/config/schema-types.php:155
+msgid "Tech Article"
+msgstr "Tehnički članak"
+
+#: src/config/schema-types.php:151
+msgid "Scholarly Article"
+msgstr "Akademski članak"
+
+#: src/config/schema-types.php:147
+msgid "Satirical Article"
+msgstr "Satirični članak"
+
+#: src/config/schema-types.php:143
+msgid "Advertiser Content Article"
+msgstr "Članak sadržaja oglašivača"
+
+#: src/config/schema-types.php:139
+msgid "News Article"
+msgstr "Članak za novosti"
+
+#: src/config/schema-types.php:135
+msgid "Social Media Posting"
+msgstr "Objavljivanje na društvenim mrežama"
+
+#: src/config/schema-types.php:127
+msgid "Article"
+msgstr "Članak"
+
+#: src/config/schema-types.php:104
+msgid "Search Results Page"
+msgstr "Stranica s rezultatima pretraživanja"
+
+#: src/config/schema-types.php:100
+msgid "Real Estate Listing"
+msgstr "Lista nekretnina"
+
+#: src/config/schema-types.php:96
+msgid "Checkout Page"
+msgstr "Stranica za naplatu"
+
+#: src/config/schema-types.php:92
+msgid "Collection Page"
+msgstr "Stranica zbirke"
+
+#: src/config/schema-types.php:88
+msgid "Medical Web Page"
+msgstr "Medicinska Internet stranica"
+
+#: src/config/schema-types.php:84
+msgid "Contact Page"
+msgstr "Kontakt stranica"
+
+#: src/config/schema-types.php:80
+msgid "Profile Page"
+msgstr "Profilna stranica"
+
+#: src/config/schema-types.php:76
+msgid "QA Page"
+msgstr "Najčešća pitanja i odgovori"
+
+#: src/config/schema-types.php:72
+msgid "FAQ Page"
+msgstr "Stranica ČPP"
+
+#: src/config/schema-types.php:68
+msgid "About Page"
+msgstr "O stranici"
+
+#: src/config/schema-types.php:64
+msgid "Item Page"
+msgstr "Stranica predmeta"
+
+#: src/config/schema-types.php:60
+msgid "Web Page"
+msgstr "Internet stranica"
+
+#. translators: 1: Yoast SEO
+#: admin/views/class-yoast-feature-toggles.php:170
+msgid "Allow us to track some data about your site to improve our plugin."
+msgstr "Dopustite nam da pratimo neke podatke o vašoj web lokaciji kako bismo poboljšali naš dodatak."
+
+#: admin/views/class-yoast-feature-toggles.php:165
+#: admin/views/class-yoast-feature-toggles.php:166 js/dist/new-settings.js:14
+#: js/dist/new-settings.js:236
+msgid "Usage tracking"
+msgstr "Praćenje upotrebe"
+
+#: src/presenters/admin/indexing-notification-presenter.php:75
+msgid "Because of a change in your permalink structure, some of your SEO data needs to be reprocessed."
+msgstr "Zbog promjene u vašoj strukturi stalne veze, neke vaše SEO podatke treba ponovno obraditi."
+
+#: src/presenters/admin/indexing-notification-presenter.php:78
+msgid "Because of a change in your home URL setting, some of your SEO data needs to be reprocessed."
+msgstr "Zbog promjene postavke URL-a početne stranice, neke vaše SEO podatke treba ponovno obraditi."
+
+#. translators: %1$s expands to Yoast.
+#: src/integrations/blocks/block-categories.php:70
+msgid "%1$s Internal Linking Blocks"
+msgstr "%1$s Blokovi za unutrašnje povezivanje"
+
+#: src/services/health-check/links-table-reports.php:45
+msgid "The text link counter is working as expected"
+msgstr "Brojač tekstualnih veza očekivano radi."
+
+#. translators: %1$s: Link to article about text links, %2$s: Anchor closing
+#. tag, %3$s: Emphasis open tag, %4$s: Emphasis close tag
+#: admin/class-yoast-columns.php:48
+msgid "The links columns show the number of articles on this site linking %3$sto%4$s this article and the number of URLs linked %3$sfrom%4$s this article. Learn more about %1$show to use these features to improve your internal linking%2$s, which greatly enhances your SEO."
+msgstr "Stupci s vezama prikazuju broj članaka na ovoj web-stranici koji povezuju %3$sna%4$s ovaj člank i broj povezanih URL-ova %3$s%4$s ovog članka. Saznajte više o tome %1$skako koristiti ove značajke za poboljšanje vašeg internog povezivanja%2$s, što uvelike poboljšava vaš SEO."
+
+#. translators: %1$s: Link to article about content analysis, %2$s: Anchor
+#. closing
+#: admin/class-yoast-columns.php:39
+msgid "We've written an article about %1$show to use the SEO score and Readability score%2$s."
+msgstr "Napisali smo članak o tome %1$s kako koristiti SEO ocjenu i ocjenu čitljivosti %2$s."
+
+#. translators: %1$s: Yoast SEO
+#: admin/class-yoast-columns.php:32
+msgid "%1$s adds several columns to this page."
+msgstr "%1$s dodaje nekoliko stupaca na ovu stranicu."
+
+#: src/presenters/admin/search-engines-discouraged-presenter.php:41
+msgid "I don't want this site to show in the search results."
+msgstr "Ne želim da se ova stranica prikazuje u rezultatima pretraživanja."
+
+#: src/presenters/admin/migration-error-presenter.php:59
+msgid "Show debug information"
+msgstr "Prikaži informacije o otklanjanju pogrešaka"
+
+#. translators: %s: Yoast SEO.
+#: src/presenters/admin/migration-error-presenter.php:53
+msgid "Your site will continue to work normally, but won't take full advantage of %s."
+msgstr "Vaša će web lokacija i dalje normalno raditi, ali neće u potpunosti iskoristiti %s."
+
+#. translators: %s: Yoast SEO.
+#: src/presenters/admin/migration-error-presenter.php:42
+msgid "%s had problems creating the database tables needed to speed up your site."
+msgstr "%s je imao problema sa stvaranjem tablica baze podataka potrebnih za ubrzanje vašeg web mjesta."
+
+#: src/presenters/admin/indexing-notification-presenter.php:117
+msgid "We estimate this will take less than a minute."
+msgstr "Procjenjujemo da će ovo trajati manje od minute. "
+
+#: src/presenters/admin/indexing-notification-presenter.php:121
+msgid "We estimate this will take a couple of minutes."
+msgstr "Procjenjujemo da će ovo potrajati nekoliko minuta."
+
+#. translators: 1: Link to article about indexation command, 2: Anchor closing
+#. tag, 3: Link to WP CLI.
+#: src/presenters/admin/indexing-notification-presenter.php:136
+msgid "%1$sRun the indexation process on your server%2$s using %3$sWP CLI%2$s."
+msgstr "%1$sPokrenite postupak indeksacije na vašem poslužitelju%2$s koristeći %3$sWP CLI%2$s."
+
+#: src/presenters/admin/indexing-notification-presenter.php:124
+msgid "We estimate this could take a long time, due to the size of your site. As an alternative to waiting, you could:"
+msgstr "Zbog veličine Vaše stranice, procjenjujemo kako bi ovo moglo potrajati dugo vremena. Kao alternativu čekanju mogli bi:"
+
+#. translators: %1$s: link to help article about solving table issue. %2$s: is
+#. anchor closing.
+#: src/presenters/admin/migration-error-presenter.php:47
+msgid "Please read %1$sthis help article%2$s to find out how to resolve this problem."
+msgstr "Molimo pročitajte %1$sovaj članak pomoći%2$s da biste saznali kako riješiti ovaj problem."
+
+#: inc/class-wpseo-replace-vars.php:1485
+msgid "Term hierarchy"
+msgstr "Hijerarhija pojmova"
+
+#. translators: 1: link open tag; 2: link close tag.
+#: src/services/health-check/default-tagline-reports.php:63
+msgid "%1$sYou can change the tagline in the customizer%2$s."
+msgstr "%1$sSada možete izmjeniti slogan u prilagođivaču%2$s."
+
+#: src/presenters/admin/sidebar-presenter.php:88 js/dist/new-settings.js:28
+msgid "Learn SEO"
+msgstr "Naučite SEO"
+
+#: admin/metabox/class-metabox.php:428 js/dist/block-editor.js:456
+#: js/dist/elementor.js:439 js/dist/new-settings.js:10
+#: js/dist/new-settings.js:14 js/dist/new-settings.js:18
+#: js/dist/new-settings.js:55 js/dist/new-settings.js:211
+#: js/dist/structured-data-blocks.js:13
+msgid "Schema"
+msgstr "Schema"
+
+#: admin/admin-settings-changed-listener.php:81
+msgid "Settings saved."
+msgstr "Postavke spremljene."
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:157
+msgid "Please check the format of the Wikipedia URL you entered. %s"
+msgstr "Provjerite format Wikipedia URL-a koji ste upisali. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:142
+msgid "Please check the format of the Pinterest URL you entered. %s"
+msgstr "Provjerite format Pinterest URL-a koji ste upisali. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:137
+msgid "Please check the format of the MySpace URL you entered. %s"
+msgstr "Provjerite format MySpace URL-a koji ste upisali. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:122
+msgid "Please check the format of the Instagram URL you entered. %s"
+msgstr "Provjerite format Instagram URL-a koji ste upisali. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:112
+msgid "Please check the format of the Facebook Page URL you entered. %s"
+msgstr "Provjerite format Facebook Page URL-a koji ste upisali. %s"
+
+#. translators: %s: form value as submitted.
+#: admin/class-yoast-input-validation.php:319
+msgid "The submitted value was: %s"
+msgstr "Unijeta vrijednost je: %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:162
+msgid "Yandex confirmation codes can only contain letters from A to F, numbers, hyphens, and underscores. %s"
+msgstr "Yandex verifikacijski kod može sadržavati samo slova od A do F, brojeve, crtice i donje crte. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:152
+msgid "Twitter usernames can only contain letters, numbers, and underscores. %s"
+msgstr "Twitter korisničko ime može sadržavati samo slova, brojeve i donju crtu. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:147
+msgid "Pinterest confirmation codes can only contain letters from A to F, numbers, hyphens, and underscores. %s"
+msgstr "Pinterest verifikacijski kod može sadržavati samo slova od A do F, brojeve, crtice i donje crte. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:132
+msgid "Bing confirmation codes can only contain letters from A to F, numbers, hyphens, and underscores. %s"
+msgstr "Bing verifikacijski kod može sadržavati samo slova od A do F, brojeve, crtice i donje crte. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:117
+msgid "Google verification codes can only contain letters, numbers, hyphens, and underscores. %s"
+msgstr "Google verifikacijski kod može sadržavati samo slova, brojeve, crticu i donju crtu. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:107
+msgid "Baidu verification codes can only contain letters, numbers, hyphens, and underscores. %s"
+msgstr "Baidu verifikacijski kod može sadržavati samo slova, brojeve, crtice i donje crte. %s"
+
+#: admin/views/partial-notifications-template.php:45
+msgid "Show this item."
+msgstr "Prikaži stavku."
+
+#: admin/views/partial-notifications-template.php:38
+msgid "Hide this item."
+msgstr "Sakrij stavku."
+
+#. translators: %d expands the amount of hidden problems.
+#: admin/views/partial-notifications-errors.php:25
+msgid "You have %d hidden problem:"
+msgid_plural "You have %d hidden problems:"
+msgstr[0] "Imate %d skriveni problem."
+msgstr[1] "Imate %d skrivena problema."
+msgstr[2] "Imate %d skrivenih problema."
+
+#. translators: %d expands the amount of hidden notifications.
+#: admin/views/partial-notifications-warnings.php:25
+msgid "You have %d hidden notification:"
+msgid_plural "You have %d hidden notifications:"
+msgstr[0] "Imate %d skrivenu obavijest."
+msgstr[1] "Imate %d skrivene obavijesti."
+msgstr[2] "Imate %d skrivenih obavijesti."
+
+#. translators: %1$s: amount of errors, %2$s: the admin page title
+#: admin/class-yoast-input-validation.php:65
+msgid "The form contains %1$s error. %2$s"
+msgid_plural "The form contains %1$s errors. %2$s"
+msgstr[0] "Forma sadrži %1$s grešku. %2$s"
+msgstr[1] "Forma sadrži %1$s greške. %2$s"
+msgstr[2] "Forma sadrži %1$s grešaka. %2$s"
+
+#. translators: %s expands to the extension title
+#: admin/views/licenses.php:208 admin/views/licenses.php:319
+msgid "Activate %s for your site on MyYoast"
+msgstr "Aktivirajte %s za vašu web-stranicu na MyYoast"
+
+#: admin/class-customizer.php:109 js/dist/new-settings.js:14
+#: js/dist/new-settings.js:113
+msgid "Show blog page in breadcrumbs"
+msgstr "Prikaži blog stranicu u breadcrumbs"
+
+#. translators: %1$s expands to the opening anchor tag, %2$s to the closing
+#. anchor tag, %3$s to the SEO score.
+#: admin/formatter/class-metabox-formatter.php:112
+#: admin/formatter/class-metabox-formatter.php:119
+#: admin/formatter/class-metabox-formatter.php:126
+#: admin/formatter/class-metabox-formatter.php:133
+msgid "%1$sSEO%2$s: %3$s"
+msgstr "%1$sSEO%2$s: %3$s"
+
+#. translators: %1$s expands to the opening anchor tag, %2$s to the closing
+#. anchor tag, %3$s to the readability score.
+#: admin/formatter/class-metabox-formatter.php:142
+#: admin/formatter/class-metabox-formatter.php:149
+#: admin/formatter/class-metabox-formatter.php:156
+#: admin/formatter/class-metabox-formatter.php:163
+msgid "%1$sReadability%2$s: %3$s"
+msgstr "%1$sČitljivost%2$s: %3$s"
+
+#. translators: %s expands to the score
+#: admin/statistics/class-statistics-service.php:216
+#: admin/statistics/class-statistics-service.php:221
+#: admin/statistics/class-statistics-service.php:226
+msgid "Posts with the SEO score: %s"
+msgstr "Objave s SEO ocjenom: %s"
+
+#. translators: %s: expends to Yoast SEO
+#: admin/class-admin.php:353
+msgid "%s video tutorial"
+msgstr "%s video tutorial"
+
+#: inc/class-wpseo-rank.php:178
+msgid "Post Noindexed"
+msgstr "Noindexed objava"
+
+#: inc/class-wpseo-rank.php:158
+msgid "No Focus Keyphrase"
+msgstr "Ključna riječ"
+
+#. translators: %s expands to the SEO score
+#: inc/class-wpseo-rank.php:157 inc/class-wpseo-rank.php:162
+#: inc/class-wpseo-rank.php:167 inc/class-wpseo-rank.php:172
+#: inc/class-wpseo-rank.php:177
+msgid "SEO: %s"
+msgstr "SEO: %s"
+
+#. Translators: %1$s: expands to opening anchor tag, %2$s expands to closing
+#. anchor tag.
+#: admin/google_search_console/views/gsc-display.php:39
+msgid "To view your current crawl errors, %1$splease visit Google Search Console%2$s."
+msgstr "Da biste pogledali trenutačne pogreške prilikom indeksiranja, %1$sposjetite konzolu Google Search%2$s."
+
+#. Translators: %1$s: expands to opening anchor tag, %2$s expands to closing
+#. anchor tag.
+#: admin/google_search_console/views/gsc-display.php:32
+msgid "Google has discontinued its Crawl Errors API. Therefore, any possible crawl errors you might have cannot be displayed here anymore. %1$sRead our statement on this for further information%2$s."
+msgstr "Google je ukinuo API za pogreške pri indeksiranju. Stoga se ovdje više ne mogu prikazati sve moguće pogreške pri indeksiranju. %1$s Pročitajte našu izjavu o tome za daljnje informacije %2$s."
+
+#: src/integrations/admin/first-time-configuration-integration.php:511
+#: src/integrations/admin/first-time-configuration-integration.php:524
+#: js/dist/new-settings.js:242
+msgid "Organization"
+msgstr "Organizacija"
+
+#. translators: %1$s is a link start tag to the Search Appearance settings,
+#. %2$s is the link closing tag.
+#: admin/class-schema-person-upgrade-notification.php:60
+msgid "You have previously set your site to represent a person. We’ve improved our functionality around Schema and the Knowledge Graph, so you should go in and %1$scomplete those settings%2$s."
+msgstr "Prethodno ste odredili da web-stranica predstavlja osobu. Poboljšali smo našu funkcionalnost vezanu za Schema i Knowledge Graph, stoga bi trebali otvoriti i %1$sdovršiti postavljanje tih postavki%2$s."
+
+#: admin/class-admin.php:310
+msgid "(if one exists)"
+msgstr "(ako postoji)"
+
+#: admin/class-admin.php:310
+msgid "Wikipedia page about you"
+msgstr "Wikipedia stranica o vama"
+
+#: admin/class-admin.php:309
+msgid "YouTube profile URL"
+msgstr "YouTube profile URL"
+
+#: admin/class-admin.php:307
+msgid "Tumblr profile URL"
+msgstr "Tumblr profile URL"
+
+#: admin/class-admin.php:306
+msgid "SoundCloud profile URL"
+msgstr "SoundCloud profile URL"
+
+#: admin/class-admin.php:304
+msgid "MySpace profile URL"
+msgstr "MySpace profile URL"
+
+#: src/generators/schema/article.php:136
+msgid "Uncategorized"
+msgstr "Nekategorizirano"
+
+#: admin/views/tabs/social/accounts.php:20
+msgid "If a Wikipedia page for you or your organization exists, add it too."
+msgstr "Ako postoji Wikipedia stranica za vas ili vašu organizaciju, također ju dodajte."
+
+#: admin/class-admin.php:305
+msgid "Pinterest profile URL"
+msgstr "Pinterest profile URL"
+
+#: admin/class-admin.php:303
+msgid "LinkedIn profile URL"
+msgstr "LinkedIn profile URL"
+
+#: admin/class-admin.php:302
+msgid "Instagram profile URL"
+msgstr "Instagram profile URL"
+
+#: inc/class-my-yoast-api-request.php:141
+msgid "No JSON object was returned."
+msgstr "Nijedan JSON objekt nije vraćen."
+
+#: src/integrations/admin/link-count-columns-integration.php:145
+msgid "Received internal links"
+msgstr "Primljene unutarnje poveznice"
+
+#: src/integrations/admin/link-count-columns-integration.php:138
+msgid "Outgoing internal links"
+msgstr "Odlazne unutarnje poveznice"
+
+#: admin/class-meta-columns.php:111 js/dist/block-editor.js:339
+#: js/dist/classic-editor.js:335 js/dist/dashboard-widget.js:24
+#: js/dist/editor-modules.js:289 js/dist/elementor.js:339
+msgid "Keyphrase"
+msgstr "Ključna riječ"
+
+#. translators: 1: Yoast SEO.
+#: src/services/health-check/links-table-reports.php:87
+msgid "For this feature to work, %1$s needs to create a table in your database. We were unable to create this table automatically."
+msgstr "Kako bi ova značajka funkcionirala %1$s treba kreirati tablicu u bazi podataka. Dodatak nije u mogućnosti automatski kreirati ovu tablicu."
+
+#. translators: %1$s expands to the requested url
+#: admin/exceptions/class-file-size-exception.php:40
+msgid "Cannot get the size of %1$s because of unknown reasons."
+msgstr "Nije moguće saznati veličinu %1$s zbog nepoznatih razloga."
+
+#. translators: %1$s expands to the requested url
+#: admin/exceptions/class-file-size-exception.php:23
+msgid "Cannot get the size of %1$s because it is hosted externally."
+msgstr "Nije moguće saznati veličinu %1$s jer je na eksternom poslužitelju."
+
+#. translators: %s expands to the current page number
+#: src/generators/breadcrumbs-generator.php:410
+msgid "Page %s"
+msgstr "Stranica %s"
+
+#. translators: %1$s expands to the method name. %2$s expands to the class name
+#: src/exceptions/missing-method.php:24
+msgid "Method %1$s() does not exist in class %2$s"
+msgstr "Metoda %1$s() ne postoji u klasi %2$s"
+
+#. translators: %s expands to Yoast SEO Premium
+#: admin/watchers/class-slug-change-watcher.php:219
+msgid "With %s, you can easily create such redirects."
+msgstr "S %s, možete jednostavno kreirati preusmjeravanja."
+
+#: admin/views/tabs/tool/wpseo-import.php:15
+msgid "Import of settings is only supported on servers that run PHP 5.3 or higher."
+msgstr "Uvoz postavki je podržano na poslužiteljima koji koriste PHP 5.3 ili noviji."
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/tool/wpseo-export.php:26
+msgid "Export your %1$s settings here, to copy them on another site."
+msgstr "Ovdje izvezite %1$s postavke, kako bi ih kopirali na drugu web-stranicu."
+
+#: admin/import/class-import-settings.php:85
+msgid "No settings found."
+msgstr "Nema pronađenih postavki."
+
+#. translators: %1$s expands to Yoast SEO, %2$s expands to Yoast.com
+#: admin/class-export.php:89
+msgid "These are settings for the %1$s plugin by %2$s"
+msgstr "Ovo su postavke za %1$s dodatak od %2$s"
+
+#. translators: %1$s expands to Import settings
+#: admin/class-export.php:57
+msgid "Copy all these settings to another site's %1$s tab and click \"%1$s\" there."
+msgstr "Kopiraj sve ove postavke na %1$s karticu drugu web-stranicu i zatim tamo kliknite \"%1$s\"."
+
+#: admin/class-export.php:50
+msgid "You do not have the required rights to export settings."
+msgstr "Nemate potrebna dopuštenja za izvoz postavki."
+
+#: admin/class-admin-init.php:327
+msgid "WARNING:"
+msgstr "UPOZORENJE:"
+
+#: admin/views/tabs/network/features.php:95
+#: admin/views/tabs/network/integrations.php:82
+#: src/integrations/admin/crawl-settings-integration.php:292
+msgid "Disable"
+msgstr "Onemogući"
+
+#: admin/views/tabs/network/features.php:94
+#: admin/views/tabs/network/integrations.php:81
+#: src/integrations/admin/crawl-settings-integration.php:290
+msgid "Allow Control"
+msgstr "Dopusti kontrolu"
+
+#. translators: %s expands to Yoast SEO
+#: admin/views/tabs/network/crawl-settings.php:24
+#: admin/views/tabs/network/features.php:27
+msgid "This tab allows you to selectively disable %s features for all sites in the network. By default all features are enabled, which allows site admins to choose for themselves if they want to toggle a feature on or off for their site. When you disable a feature here, site admins will not be able to use that feature at all."
+msgstr "Ova kartica omogućuje da selektivno onemogućite %s značajke za sve web-stranice u mreži. Izvorno sve značajke su omogućene, što dopušta administratoru web-stranice da odabere hoće li uključiti ili isključiti značajku. Kada onemogućite značajku ovdje, administratori web-stranice neće biti u mogućnosti koristiti tu značajku uopće."
+
+#: admin/class-yoast-form.php:1041 js/dist/first-time-configuration.js:13
+msgid "This feature has been disabled by the network admin."
+msgstr "Ova značajka je onemogućena od stranice administratora mreže."
+
+#: admin/class-yoast-form.php:749 admin/metabox/class-metabox.php:650
+#: admin/taxonomy/class-taxonomy-fields-presenter.php:133
+msgid "Clear Image"
+msgstr "Ukloni sliku"
+
+#: admin/class-meta-columns.php:172
+msgid "Focus keyphrase not set."
+msgstr "Ključna riječ nije postavljena."
+
+#: inc/class-wpseo-admin-bar-menu.php:866
+msgid "There is a new notification."
+msgid_plural "There are new notifications."
+msgstr[0] "Imate novu obavijest."
+msgstr[1] "Imate nove obavijesti."
+msgstr[2] "Imate novih obavijesti."
+
+#: inc/options/class-wpseo-option-titles.php:965
+msgid "Colon"
+msgstr "Dvotočka"
+
+#. translators: %1$s expands to Yoast SEO, %2$s: 'SEO' plugin name of possibly
+#. conflicting plugin with regard to the creation of duplicate SEO meta.
+#: admin/class-plugin-conflict.php:88
+msgid "Both %1$s and %2$s manage the SEO of your site. Running two SEO plugins at the same time is detrimental."
+msgstr "%1$s i %2$s obavljaju SEO na vašoj stranici. Štetno je koristiti dva SEO plugina istovremeno."
+
+#. translators: %1$s expands to Yoast.
+#: src/integrations/blocks/block-categories.php:62
+msgid "%1$s Structured Data Blocks"
+msgstr "%1$s Blok strukturiranih podataka"
+
+#: inc/class-wpseo-admin-bar-menu.php:428
+msgid "Check links to this URL"
+msgstr "Provjeri poveznice do ovog URL-a"
+
+#: inc/class-wpseo-admin-bar-menu.php:504 js/dist/structured-data-blocks.js:13
+msgid "How to"
+msgstr "Kako"
+
+#: admin/pages/network.php:36
+msgid "Restore Site"
+msgstr "Oporavi web-stranicu"
+
+#: admin/menu/class-network-admin-menu.php:34
+msgid "Network Settings"
+msgstr "Postavke mreže"
+
+#: admin/class-yoast-network-admin.php:276
+msgid "You are not allowed to perform this action."
+msgstr "Nije vam dozvoljena ta akcija"
+
+#. translators: %s: error message
+#: admin/class-yoast-network-admin.php:208
+msgid "Error: %s"
+msgstr "Greška: %s"
+
+#. translators: %s: success message
+#: admin/class-yoast-network-admin.php:206
+msgid "Success: %s"
+msgstr "Dovršeno: %s"
+
+#. translators: %s expands to the ID of a site within a multisite network.
+#: admin/class-yoast-network-admin.php:168
+msgid "Site with ID %d not found."
+msgstr "Web-stranica ID %d nije pronađena"
+
+#: admin/class-yoast-network-admin.php:159
+msgid "No site has been selected to restore."
+msgstr "Nije odabrana web-stranicu za oporavak"
+
+#: admin/class-yoast-network-admin.php:120
+msgid "You are not allowed to modify unregistered network settings."
+msgstr "Nije vam dopušteno mijenjati neregistrirane postavke mreže."
+
+#: admin/class-yoast-network-admin.php:81
+msgid "deleted"
+msgstr "obrisano"
+
+#: inc/class-wpseo-replace-vars.php:1474
+msgid "The site's tagline"
+msgstr " Slogan web-stranice"
+
+#. translators: %1$s expands to the missing field name.
+#: admin/menu/class-replacevar-editor.php:150
+msgid "Not all required fields are given. Missing field %1$s"
+msgstr "Sva obavezna polja nisu dana. Nedostaje polje %1$s"
+
+#: inc/class-wpseo-replace-vars.php:1488 js/dist/externals-redux.js:1
+msgid "Current year"
+msgstr "Trenutna godina"
+
+#: inc/class-wpseo-replace-vars.php:1474 js/dist/externals-redux.js:1
+#: js/dist/new-settings.js:14 js/dist/new-settings.js:230
+msgid "Tagline"
+msgstr "Slogan"
+
+#: inc/class-wpseo-replace-vars.php:1517 js/dist/externals-redux.js:1
+msgid "Page"
+msgstr "Stranica"
+
+#: inc/class-wpseo-replace-vars.php:1525
+msgid "description (custom taxonomy)"
+msgstr "opis (prilagođena taksonomija)"
+
+#: inc/class-wpseo-replace-vars.php:1524
+msgid "(custom taxonomy)"
+msgstr "(prilagođena taksonomija)"
+
+#: inc/class-wpseo-replace-vars.php:1523
+msgid "(custom field)"
+msgstr "(dodatno polje)"
+
+#: inc/class-wpseo-replace-vars.php:1522
+msgid "Term404"
+msgstr "Term404"
+
+#: inc/class-wpseo-replace-vars.php:1520
+msgid "Caption"
+msgstr "Tekst opisa"
+
+#: inc/class-wpseo-replace-vars.php:1519
+msgid "Pagenumber"
+msgstr "Broj stranice"
+
+#: inc/class-wpseo-replace-vars.php:1518
+msgid "Pagetotal"
+msgstr "Pagetotal"
+
+#: inc/class-wpseo-replace-vars.php:1516
+msgid "User description"
+msgstr "Opis korisnika"
+
+#: inc/class-wpseo-replace-vars.php:1514 js/dist/externals-redux.js:1
+msgid "ID"
+msgstr "ID"
+
+#: inc/class-wpseo-replace-vars.php:1513
+msgid "Modified"
+msgstr "Modificirano"
+
+#: inc/class-wpseo-replace-vars.php:1512
+msgid "Post type (plural)"
+msgstr "Vrsta objave (množina)"
+
+#: inc/class-wpseo-replace-vars.php:1511
+msgid "Post type (singular)"
+msgstr "Vrsta objave (jednina)"
+
+#: inc/class-wpseo-replace-vars.php:1486 js/dist/externals-redux.js:1
+#: js/dist/new-settings.js:14
+msgid "Separator"
+msgstr "Separator"
+
+#: inc/class-wpseo-replace-vars.php:1484 js/dist/externals-redux.js:1
+msgid "Search phrase"
+msgstr "Fraza pretrage"
+
+#: inc/class-wpseo-replace-vars.php:1483
+msgid "Term title"
+msgstr "Naslov pojma"
+
+#: inc/class-wpseo-replace-vars.php:1482 js/dist/externals-redux.js:1
+msgid "Term description"
+msgstr "Opis pojma"
+
+#: inc/class-wpseo-replace-vars.php:1481 js/dist/externals-redux.js:1
+msgid "Tag description"
+msgstr "Opis oznake"
+
+#: inc/class-wpseo-replace-vars.php:1480 js/dist/externals-redux.js:1
+msgid "Category description"
+msgstr "Opis kategorije"
+
+#: inc/class-wpseo-replace-vars.php:1479 js/dist/externals-redux.js:1
+msgid "Primary category"
+msgstr "Osnovna kategorija"
+
+#: inc/class-wpseo-replace-vars.php:1478 js/dist/externals-redux.js:1
+msgid "Category"
+msgstr "Kategorija"
+
+#: inc/class-wpseo-replace-vars.php:1477
+msgid "Tag"
+msgstr "Oznaka"
+
+#: inc/class-wpseo-replace-vars.php:1476 js/dist/externals-redux.js:1
+msgid "Excerpt only"
+msgstr "Samo sažetak"
+
+#: inc/class-wpseo-replace-vars.php:1475 js/dist/externals-redux.js:1
+msgid "Excerpt"
+msgstr "Sažetak"
+
+#: inc/class-wpseo-replace-vars.php:1473 js/dist/externals-redux.js:1
+msgid "Site title"
+msgstr "Naslov stranice"
+
+#: inc/class-wpseo-replace-vars.php:1472
+msgid "Archive title"
+msgstr "Naslov arhive"
+
+#: inc/class-wpseo-replace-vars.php:1471 js/dist/externals-redux.js:1
+msgid "Parent title"
+msgstr "Naslov matičnog"
+
+#: inc/class-wpseo-replace-vars.php:1469 js/dist/externals-redux.js:1
+msgid "Date"
+msgstr "Datum"
+
+#: inc/class-wpseo-admin-bar-menu.php:588 js/dist/block-editor.js:404
+#: js/dist/classic-editor.js:400 js/dist/elementor.js:404
+msgid "Get Yoast SEO Premium"
+msgstr "Nabavite Yoast SEO Premium"
+
+#: admin/watchers/class-slug-change-watcher.php:217
+msgid "You should create a redirect to ensure your visitors do not get a 404 error when they click on the no longer working URL."
+msgstr "Trebali bi kreirati preusmjeravanje kako bi posjetitelji ne bi dobili 404 grešku kada kliknu na URL koji više ne radi."
+
+#: admin/watchers/class-slug-change-watcher.php:216
+msgid "Search engines and other websites can still send traffic to your deleted post."
+msgstr "Tražilice i druge web-stranice još uvijek mogu slati promet na obrisanu objavu."
+
+#: admin/watchers/class-slug-change-watcher.php:213
+msgid "Make sure you don't miss out on traffic!"
+msgstr "Pobrinite se da ne izgubite promet!"
+
+#. translators: %1$s expands to the translated name of the post type.
+#. translators: 1: term label
+#: admin/watchers/class-slug-change-watcher.php:84
+#: admin/watchers/class-slug-change-watcher.php:104
+msgid "You just deleted a %1$s."
+msgstr "Upravo ste obrisali %1$s."
+
+#. translators: %1$s expands to the translated name of the post type.
+#: admin/watchers/class-slug-change-watcher.php:65
+msgid "You just trashed a %1$s."
+msgstr "Poslali ste u smeće %1$s."
+
+#. translators: %1$s expands to a link start tag to the Baidu Webmaster Tools
+#. site add page, %2$s is the link closing tag.
+#: admin/views/tabs/dashboard/webmaster-tools.php:44
+msgid "Get your Baidu verification code in %1$sBaidu Webmaster Tools%2$s."
+msgstr "Nabavite Baidu verifkacijski kod u %1$sBaidu Webmaster Tools%2$s."
+
+#: admin/views/tabs/dashboard/webmaster-tools.php:40
+msgid "Baidu verification code"
+msgstr "Baidu verifkacijski kod"
+
+#. translators: %s is replaced with Yoast SEO.
+#: admin/import/plugins/class-abstract-plugin-importer.php:257
+msgid "The %s importer functionality uses temporary database tables. It seems your WordPress install does not have the capability to do this, please consult your hosting provider."
+msgstr "Funkcionalnost uvoznika %s koristi privremene tablice baze podataka. Izgleda da vaša WordPress instalacija nema  mogućnost za to, stoga kontaktiraje svoj hosting."
+
+#. translators: %s is replaced with the plugin's name.
+#: admin/import/plugins/class-abstract-plugin-importer.php:132
+msgid "Cleanup of %s data failed."
+msgstr "Čišćenje %s podatka nije uspjelo."
+
+#: admin/class-bulk-editor-list-table.php:1003
+msgid "Content Type"
+msgstr "Vrsta sadržaja"
+
+#: admin/class-bulk-editor-list-table.php:411
+msgid "Filter by content type"
+msgstr "Filter po vrsti sadržaja"
+
+#: admin/class-bulk-editor-list-table.php:394
+msgid "Show All Content Types"
+msgstr "Prikaži sve vrste sadržaja"
+
+#: inc/class-wpseo-replace-vars.php:1472
+msgid "Replaced with the normal title for an archive generated by WordPress"
+msgstr "Zamijenite s normalnim naslovom za arhivu koju će generirati WordPress."
+
+#: admin/views/tabs/tool/import-seo.php:137
+msgid "Clean"
+msgstr "Očisti"
+
+#: admin/views/tabs/tool/import-seo.php:128
+msgid "Once you're certain your site is OK, you can clean up. This will remove all the original data."
+msgstr "Kada ste sigurni da je vaša web-stranica OK, možete očistiti. Ovo će ukloniti sve originalne podatke."
+
+#: admin/views/tabs/tool/import-seo.php:126
+msgid "Step 5: Clean up"
+msgstr "5. korak: Čišćenje"
+
+#: admin/views/tabs/tool/import-seo.php:107
+msgid "Please check your posts and pages and see if the metadata was successfully imported."
+msgstr "Provjerite objave i stranice i pregledajte da li su meta podaci uspješno uvezeni."
+
+#: admin/views/tabs/tool/import-seo.php:105
+msgid "Step 3: Check your data"
+msgstr "3. korak: Provjerite svoje podatke"
+
+#. translators: 1: expands to Yoast SEO
+#: admin/views/tabs/tool/import-seo.php:67
+msgid "This will import the post metadata like SEO titles and descriptions into your %1$s metadata. It will only do this when there is no existing %1$s metadata yet. The original data will remain in place."
+msgstr "Ovo će uvesti meta podatke objava kao što su SEO naslovi i opisi u vaše %1$s meta podatke. To će napraviti samo kada nema postojeći %1$s meta podataka. Originalni podaci ostati će gdje jesu."
+
+#: admin/views/tabs/tool/import-seo.php:62
+msgid "Step 2: Import"
+msgstr "2. korak: Uvoz"
+
+#: admin/views/tabs/tool/import-seo.php:57
+msgid "Please make a backup of your database before starting this process."
+msgstr "Napravite sigurnosnu kopiju vaše baze podataka prije nego započete ovaj proces."
+
+#: admin/views/tabs/tool/import-seo.php:55
+msgid "Step 1: Create a backup"
+msgstr "1. korak: Kreirajte sigurnosnu kopiju"
+
+#: admin/views/tabs/tool/import-seo.php:51
+msgid "We've detected data from one or more SEO plugins on your site. Please follow the following steps to import that data:"
+msgstr "Detektirali smo podatke iz jednog ili više SEo dodataka na vašoj web-stranici. Pratite sljedeće korake kako bi uvezli podatke:"
+
+#: admin/views/tabs/tool/import-seo.php:39
+msgid "Plugin: "
+msgstr "Dodatak:"
+
+#. translators: %s expands to Yoast SEO
+#: admin/views/tabs/tool/import-seo.php:22
+msgid "%s did not detect any plugin data from plugins it can import from."
+msgstr "%s nije detektirao podatke iz dodataka iz kojih ih može uvesti."
+
+#: admin/statistics/class-statistics-service.php:229
+msgid "Posts that should not show up in search results"
+msgstr "Objave koje se ne bi trebale pojaviti u rezultatima pretrage"
+
+#. translators: %s is replaced with the name of the plugin we've found data
+#. from.
+#: admin/import/class-import-status.php:128
+msgid "%s data found."
+msgstr "Pronađeni podaci od %s."
+
+#. translators: %s is replaced with the name of the plugin we're removing data
+#. from.
+#: admin/import/class-import-status.php:124
+msgid "%s data successfully removed."
+msgstr "Podaci od %s uspješno uklonjeni."
+
+#. translators: %s is replaced with the name of the plugin we're importing data
+#. from.
+#: admin/import/class-import-status.php:121
+msgid "%s data successfully imported."
+msgstr "Podaci od %s uspješno uvezeni."
+
+#. translators: %s is replaced with the name of the plugin we're trying to find
+#. data from.
+#: admin/import/class-import-status.php:61
+msgid "%s data not found."
+msgstr "Podaci od %s nisu pronađeni."
+
+#: admin/class-premium-upsell-admin-block.php:58 js/dist/block-editor.js:361
+#: js/dist/classic-editor.js:357 js/dist/elementor.js:361
+#: js/dist/externals-components.js:11 js/dist/externals-components.js:63
+#: js/dist/new-settings.js:256
+msgid "24/7 email support"
+msgstr "Email podrška 24 sata, 7 dana u tjednu"
+
+#: admin/views/user-profile.php:15
+msgid "this author's archives"
+msgstr "arhive autora"
+
+#. translators: %s expands to "this author's archives".
+#: admin/views/user-profile.php:14
+msgid "Do not allow search engines to show %s in search results."
+msgstr "Zabrani tražilicama da prikažu %s u rezultatima pretrage."
+
+#. translators: 1: link open tag; 2: link close tag.
+#: admin/views/tabs/dashboard/webmaster-tools.php:79
+msgid "Get your Yandex verification code in %1$sYandex Webmaster Tools%2$s."
+msgstr "Nabavite svoj Yandexov potvrdni kôd od %1$sYandex Alati za webmastere%2$s."
+
+#: admin/views/tabs/dashboard/webmaster-tools.php:75
+msgid "Yandex verification code"
+msgstr "Yandex potvrdni kod"
+
+#. translators: 1: link open tag; 2: link close tag.
+#: admin/views/tabs/dashboard/webmaster-tools.php:69
+msgid "Get your Google verification code in %1$sGoogle Search Console%2$s."
+msgstr "Nabavite svoj Googleov potvrdni kôd od %1$sGoogle Alati za webmastere%2$s."
+
+#: admin/views/tabs/dashboard/webmaster-tools.php:65
+msgid "Google verification code"
+msgstr "Google potvrdni kod"
+
+#. translators: 1: link open tag; 2: link close tag.
+#: admin/views/tabs/dashboard/webmaster-tools.php:59
+msgid "Get your Bing verification code in %1$sBing Webmaster Tools%2$s."
+msgstr "Nabavite svoj Bing potvrdni kôd od %1$sBing Alati za webmastere%2$s."
+
+#: admin/views/tabs/dashboard/webmaster-tools.php:55
+msgid "Bing verification code"
+msgstr "Bing potvrdni kod"
+
+#: admin/views/tabs/dashboard/webmaster-tools.php:19
+msgid "You can use the boxes below to verify with the different Webmaster Tools. This feature will add a verification meta tag on your home page. Follow the links to the different Webmaster Tools and look for instructions for the meta tag verification method to get the verification code. If your site is already verified, you can just forget about these."
+msgstr "Sljedeća polja možete koristiti za provjeru različitih alata za webmastere. Ova će značajka dodati meta oznaku za potvrdu na vašu početnu stranicu. Slijedite veze do odabranih Alata za webmastere, potražite upute za provjeru metaoznake i preuzmite kontrolni kôd. Ako je vaša web lokacija već provjerena, na njih možete zaboraviti."
+
+#: admin/views/tabs/dashboard/webmaster-tools.php:18
+msgid "Learn more about the Webmaster Tools verification"
+msgstr "Saznajte više o potvrdi alata za webmastere"
+
+#: admin/class-yoast-form.php:937 admin/class-yoast-form.php:977
+#: admin/metabox/class-metabox.php:205
+#: admin/views/tabs/dashboard/features.php:106
+#: js/dist/externals/componentsNew.js:778
+msgid "On"
+msgstr "Uključeno"
+
+#. translators: %s expands to a feature's name
+#. translators: %s expands to an integration's name
+#: admin/views/tabs/dashboard/features.php:55
+#: admin/views/tabs/network/features.php:62
+#: admin/views/tabs/network/integrations.php:50
+msgid "Help on: %s"
+msgstr "Pomoć za: %s"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/dashboard/features.php:27
+msgid "%1$s comes with a lot of features. You can enable / disable some of them below. Clicking the question mark gives more information about the feature."
+msgstr "%1$s dolazi s puno funkcionalnosti. Neke od njih možete uključiti ili isključiti u nastavku. Kliknite na upitnik za više informacija o funkcionalnosti."
+
+#: admin/class-yoast-form.php:938 admin/class-yoast-form.php:978
+#: admin/metabox/class-metabox.php:204
+#: admin/views/class-yoast-feature-toggles.php:160
+#: admin/views/tabs/dashboard/features.php:107
+#: js/dist/externals/componentsNew.js:778
+msgid "Off"
+msgstr "Isključeno"
+
+#: admin/views/class-yoast-feature-toggles.php:140
+msgid "Read why XML Sitemaps are important for your site."
+msgstr "Pročitajte zašto su XML Sitemaps važne za vašu web-stranicu."
+
+#. translators: %s: Yoast SEO
+#: admin/views/class-yoast-feature-toggles.php:139
+msgid "Enable the XML sitemaps that %s generates."
+msgstr "Uključi XML sitemaps koje %s generira."
+
+#: admin/views/class-yoast-feature-toggles.php:70
+msgid "See the XML sitemap."
+msgstr "Pogledaj XML sitemap."
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/dashboard/dashboard.php:21
+msgid "See who contributed to %1$s."
+msgstr "Pogledajte tko je doprinio %1$s."
+
+#: src/deprecated/admin/views/class-view-utils.php:66
+msgid "Help on this search results setting"
+msgstr "Pomoć u postavljanju ovih rezultata pretraživanja"
+
+#. translators: 1: expands to an indexable object's name, like a post type or
+#. taxonomy; 2: expands to <code>noindex</code>; 3: link open tag; 4: link
+#. close tag.
+#: src/deprecated/admin/views/class-view-utils.php:60
+msgid "Not showing the archive for %1$s in the search results technically means those will have a %2$s robots meta and will be excluded from XML sitemaps. %3$sMore info on the search results settings%4$s."
+msgstr "Ako arhiva nije prikazana za %1$s u rezultatima pretraživanja, to tehnički znači da postoji cilj za %2$s za robote, pa će stranica biti isključena iz XML Sitemapa. %3$s Više informacija o postavkama rezultata pretraživanja %4$s."
+
+#. translators: 1: expands to an indexable object's name, like a post type or
+#. taxonomy; 2: expands to <code>noindex</code>; 3: link open tag; 4: link
+#. close tag.
+#: src/deprecated/admin/views/class-view-utils.php:56
+msgid "Not showing %1$s in the search results technically means those will have a %2$s robots meta and will be excluded from XML sitemaps. %3$sMore info on the search results settings%4$s."
+msgstr "Ne prikazivanje %1$s u rezultatima pretrage tehnički znači da će imati %2$s robots meta te će biti isključeni iz XML-mapa stranica. %3$sViše informacija o postavkama rezultata pretraživanja%4$s."
+
+#. translators: %1$s expands to the post type name.
+#: admin/metabox/class-metabox.php:180
+msgid "Should search engines follow links on this %1$s?"
+msgstr "Trebaju li tražilice pratiti poveznice u %1$s?"
+
+#. translators: %1$s expands to Yes or No,  %2$s expands to the post type name.
+#: admin/metabox/class-metabox.php:175
+msgid "Default for %2$s, currently: %1$s"
+msgstr "Zadano za %2$s, trenutno: %1$s"
+
+#. translators: %s expands to the post type name.
+#. Translators: %s translates to the Post Label in singular form
+#: admin/metabox/class-metabox.php:170 js/dist/block-editor.js:391
+#: js/dist/classic-editor.js:387 js/dist/elementor.js:391
+msgid "Allow search engines to show this %s in search results?"
+msgstr "Dopustiti tražilicama da prikažu %s u rezultatima pretrage?"
+
+#. translators: %s expands to an indexable object's name, like a post type or
+#. taxonomy
+#: admin/class-yoast-form.php:948
+msgid "Show %s in search results?"
+msgstr "Prikaži %s u rezultatima pretrage?"
+
+#. translators: %1$s expands to Yoast SEO.
+#: admin/class-plugin-conflict.php:80
+msgid "Toggle %1$s's XML Sitemap"
+msgstr "Uključi/isključi %1$s's XML Sitemap"
+
+#: admin/views/tabs/social/twitterbox.php:27
+msgid "Enable this feature if you want Twitter to display a preview with images and a text excerpt when a link to your site is shared."
+msgstr "Uključite ovu značajku ako želite da Twitter prikaže pretpregled sa slikama i sažetkom tekst kada netko podijeli poveznicu na vašu web-stranicu."
+
+#: admin/views/tabs/social/facebook.php:25
+msgid "Enable this feature if you want Facebook and other social media to display a preview with images and a text excerpt when a link to your site is shared."
+msgstr "Uključite ovu značajku ako želite da Facebook i druge društvene mreže prikažu pretpregled sa slikama i sažetkom tekst kada netko podijeli poveznicu na vašu web-stranicu."
+
+#. translators: %s expands to WordProof
+#: src/integrations/third-party/wordproof-integration-toggle.php:85
+msgid "Read more about how %s works."
+msgstr "Pročitajte kako %s funkcionira."
+
+#. translators: %s: 'Semrush'
+#. translators: %s: Zapier.
+#. translators: %s: Algolia.
+#. translators: %s: 'Wincher'
+#. translators: %s expands to WordProof
+#: admin/views/class-yoast-integration-toggles.php:67
+#: admin/views/class-yoast-integration-toggles.php:78
+#: admin/views/class-yoast-integration-toggles.php:96
+#: src/integrations/third-party/wincher.php:68
+#: src/integrations/third-party/wordproof-integration-toggle.php:77
+msgid "%s integration"
+msgstr "%s integracija"
+
+#: admin/views/class-yoast-feature-toggles.php:111
+msgid "Find out how the text link counter can enhance your SEO."
+msgstr "Saznajte kako brojač tekstualnih poveznica može poboljšati vaš SEO."
+
+#: admin/views/class-yoast-feature-toggles.php:110
+msgid "The text link counter helps you improve your site structure."
+msgstr "Brojač tekstualnih poveznica pomaže vam poboljšati strukturu web-stranice."
+
+#: admin/views/class-yoast-feature-toggles.php:103
+msgid "Find out how cornerstone content can help you improve your site structure."
+msgstr "Saznajte kako temeljni sadržaj može pomoći pri poboljšanju strukture web-stranice."
+
+#: admin/views/class-yoast-feature-toggles.php:102
+msgid "The cornerstone content feature lets you to mark and filter cornerstone content on your website."
+msgstr "Značajka temeljnog sadržaja omogućava vam označavanje i filtriranje temeljnog sadržaja na web-stranici."
+
+#: admin/views/class-yoast-feature-toggles.php:86
+msgid "Discover why readability is important for SEO."
+msgstr "Otkrijte zašto je čitljivost važna za SEO."
+
+#: admin/views/class-yoast-feature-toggles.php:85 js/dist/new-settings.js:238
+msgid "The readability analysis offers suggestions to improve the structure and style of your text."
+msgstr "Analiza čitljivosti nudi prijedloge za poboljšanje strukture i stila vašeg teksta."
+
+#: admin/views/class-yoast-feature-toggles.php:78
+msgid "Learn how the SEO analysis can help you rank."
+msgstr "Saznajte kako SEO analiza može pomoći pri rangiranju."
+
+#: admin/views/class-yoast-feature-toggles.php:77
+msgid "The SEO analysis offers suggestions to improve the SEO of your text."
+msgstr "SEO analiza nudi prijedloge za poboljšanje SEO vašeg teksta."
+
+#: admin/views/class-yoast-feature-toggles.php:75
+#: js/dist/externals-components.js:94 js/dist/new-settings.js:14
+#: js/dist/new-settings.js:238
+msgid "SEO analysis"
+msgstr "SEO analiza"
+
+#: admin/formatter/class-metabox-formatter.php:233
+#: js/dist/editor-modules.js:319 js/dist/externals-components.js:15
+#: js/dist/externals/analysisReport.js:35
+msgid "Good results"
+msgstr "Dobri rezultati"
+
+#. Author URI of the plugin
+msgid "https://yoa.st/1uk"
+msgstr "https://yoa.st/1uk"
+
+#. Plugin URI of the plugin
+msgid "https://yoa.st/1uj"
+msgstr "https://yoa.st/1uj"
+
+#. translators: %1$s resolves to Yoast.com
+#: admin/class-yoast-dashboard-widget.php:124
+msgid "Latest blog posts on %1$s"
+msgstr "Najnovije blog objave na %1$s"
+
+#: admin/formatter/class-metabox-formatter.php:235
+#: js/dist/externals/analysisReport.js:17
+msgid "Remove highlight from the text"
+msgstr "Ukloniti istaknuto iz teksta"
+
+#: src/helpers/first-time-configuration-notice-helper.php:68
+msgid "First-time SEO configuration"
+msgstr "Prva SEO konfiguracija"
+
+#: admin/formatter/class-metabox-formatter.php:234
+#: js/dist/externals/analysisReport.js:17
+msgid "Highlight this result in the text"
+msgstr "Označi ovaj rezultat u tekstu"
+
+#: admin/formatter/class-metabox-formatter.php:232
+#: js/dist/editor-modules.js:319 js/dist/externals-components.js:15
+#: js/dist/externals/analysisReport.js:35
+msgid "Considerations"
+msgstr "Sagledavanja"
+
+#: admin/formatter/class-metabox-formatter.php:229
+#: js/dist/editor-modules.js:319 js/dist/externals-components.js:15
+#: js/dist/externals/analysisReport.js:35
+msgid "Errors"
+msgstr "Greške"
+
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:186
+msgid "%s file"
+msgstr "%s datoteka"
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:174 admin/views/tool-file-editor.php:224
+msgid "Save changes to %s"
+msgstr "Spremite promijene u %s"
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:165 admin/views/tool-file-editor.php:215
+msgid "Edit the content of your %s:"
+msgstr "Uredite sadržaj datoteke %s:"
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:125
+msgid "Create %s file"
+msgstr "Kreiran %s."
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:65
+msgid "Updated %s"
+msgstr "Ažuriran %s."
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:49 admin/views/tool-file-editor.php:76
+msgid "You cannot edit the %s file."
+msgstr "Ne možete uređivati %s datoteku."
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:28
+msgid "You cannot create a %s file."
+msgstr "Ne možete kreirati %s datoteku."
+
+#. translators: %1$s expands to the dependency name.
+#: admin/class-suggested-plugins.php:136
+msgid "More information about %1$s"
+msgstr "Više informacija o %1$s"
+
+#. translators: %s expands to the extension title
+#: admin/views/licenses.php:195 admin/views/licenses.php:305
+msgid "Manage your %s subscription on MyYoast"
+msgstr "Upravljanje mojim %s pretplatama na MyYoast"
+
+#. translators: %1$s expands to the posttype label, %2$s expands anchor to blog
+#. post about cornerstone content, %3$s expands to </a>
+#: admin/filters/class-cornerstone-filter.php:104
+msgid "Mark the most important %1$s as 'cornerstone content' to improve your site structure. %2$sLearn more about cornerstone content%3$s."
+msgstr "Označite najvažnije %1$s kao 'temeljni sadržaj' kako bi poboljšali strukturu vaše web-stranice. %2$sSaznajte više o temeljnom sadržaju%3$s."
+
+#: admin/class-admin-utils.php:78 admin/class-premium-popup.php:82
+#: admin/class-premium-upsell-admin-block.php:68 admin/class-yoast-form.php:912
+#: admin/formatter/class-metabox-formatter.php:237 admin/views/licenses.php:125
+#: admin/watchers/class-slug-change-watcher.php:224
+#: src/integrations/admin/workouts-integration.php:210
+#: src/integrations/admin/workouts-integration.php:239
+#: src/presenters/admin/help-link-presenter.php:75 js/dist/block-editor.js:456
+#: js/dist/externals/componentsNew.js:136 js/dist/externals/helpers.js:18
+#: js/dist/indexables-page.js:35 js/dist/integrations-page.js:3
+#: js/dist/integrations-page.js:19 js/dist/integrations-page.js:27
+msgid "(Opens in a new browser tab)"
+msgstr "(Otvara se u novoj kartice preglednika)"
+
+#. translators: %1$s expands to an opening strong tag, %2$s expands to a
+#. closing strong tag
+#: admin/statistics/class-statistics-service.php:210
+msgid "Posts %1$swithout%2$s a focus keyphrase"
+msgstr "Objave %1$sbez%2$s fokusne ključne riječi"
+
+#: admin/statistics/class-statistics-service.php:77
+msgid "Hey, your SEO is doing pretty well! Check out the stats:"
+msgstr "Vaša SEO je vrlo dobra! Pogledajte statistiku:"
+
+#: admin/statistics/class-statistics-service.php:73
+msgid "You don't have any published posts, your SEO scores will appear here once you make your first post!"
+msgstr "Nemate objavljenih objava, vaš SEO rezultat prikazati će se ovdje nakon što objavite prvu objavu!"
+
+#: admin/class-yoast-dashboard-widget.php:127
+msgid "Read more like this on our SEO blog"
+msgstr "Pročitajte više na našem SEO blogu"
+
+#. translators: %s expands to the readability score
+#: inc/class-wpseo-rank.php:194 inc/class-wpseo-rank.php:199
+#: inc/class-wpseo-rank.php:204
+msgid "Readability: %s"
+msgstr "Čitljivost: %s"
+
+#: admin/views/licenses.php:203 admin/views/licenses.php:314
+msgid "Not activated"
+msgstr "Nije aktivirano"
+
+#: admin/views/licenses.php:190 admin/views/licenses.php:300
+msgid "Activated"
+msgstr "Aktivirano"
+
+#. translators: %1$s expands to Yoast
+#: src/presenters/admin/sidebar-presenter.php:28
+msgid "%1$s recommendations for you"
+msgstr "%1$s preporuke za vas"
+
+#: admin/class-meta-columns.php:273
+msgid "All Readability Scores"
+msgstr "Svi rezultati čitljivosti"
+
+#: admin/class-meta-columns.php:269
+msgid "Filter by Readability Score"
+msgstr "Filtriranje po rezultatima čitljivosti"
+
+#. translators: %1$s expands to the product name. %2$s expands to a link to My
+#. Yoast
+#: inc/class-addon-manager.php:469
+msgid "You are not receiving updates or support! Fix this problem by adding this site and enabling %1$s for it in %2$s."
+msgstr "Ne dobivate ažuriranja ili podršku! Popravite ovaj problem tako što ćete dodati ovu web-stranicu i uključiti %1$s za nju u %2$s."
+
+#: src/integrations/admin/unsupported-php-version.php:163
+msgid "Remind me again in 4 weeks."
+msgstr "Podsjeti me ponovno za 4 tjedna."
+
+#. translators: %1$s expands to the request method
+#: admin/class-remote-request.php:95
+msgid "Request method %1$s is not valid."
+msgstr "Zatražena metoda %1$s nije ispravna."
+
+#: admin/views/class-yoast-feature-toggles.php:108 js/dist/new-settings.js:14
+#: js/dist/new-settings.js:238
+msgid "Text link counter"
+msgstr "Brojanje poveznica u tekstovima"
+
+#: src/integrations/admin/link-count-columns-integration.php:144
+msgid "Number of internal links linking to this post. See \"Yoast Columns\" text in the help tab for more info."
+msgstr "Broj unutarnjih poveznica koje vode do ove objave. U kartici Pomoć pogledajte tekst \"Yoast Columns\" za više informacija."
+
+#: src/integrations/admin/link-count-columns-integration.php:137
+msgid "Number of outgoing internal links in this post. See \"Yoast Columns\" text in the help tab for more info."
+msgstr "Broj unutarnjih poveznica u ovoj objavi. U kartici Pomoć pogledajte tekst \"Yoast Columns\" za više informacija."
+
+#. translators: %s expands to Yoast
+#: admin/class-yoast-columns.php:60
+msgid "%s Columns"
+msgstr "%s stupci"
+
+#: admin/class-meta-columns.php:104
+#: admin/taxonomy/class-taxonomy-columns.php:91
+msgid "Readability score"
+msgstr "Rezultat čitljivosti"
+
+#: admin/filters/class-cornerstone-filter.php:87
+#: admin/views/class-yoast-feature-toggles.php:100
+#: js/dist/externals-components.js:18 js/dist/new-settings.js:14
+#: js/dist/new-settings.js:238
+msgid "Cornerstone content"
+msgstr "Temeljni sadržaj"
+
+#: admin/class-premium-upsell-admin-block.php:56 js/dist/block-editor.js:359
+#: js/dist/classic-editor.js:355 js/dist/elementor.js:359
+#: js/dist/externals-components.js:9 js/dist/externals-components.js:61
+#: js/dist/new-settings.js:256
+msgid "Superfast internal linking suggestions"
+msgstr "Super brzo predlaganje unutarnjih poveznica"
+
+#: admin/class-yoast-form.php:141 admin/class-yoast-form.php:146
+#: js/dist/first-time-configuration.js:4 js/dist/new-settings.js:1
+#: js/dist/settings.js:5
+msgid "Save changes"
+msgstr "Spremi promjene"
+
+#: admin/class-premium-popup.php:88 js/dist/block-editor.js:365
+#: js/dist/classic-editor.js:361 js/dist/elementor.js:365
+#: js/dist/externals-components.js:15 js/dist/externals-components.js:67
+msgid "1 year free support and updates included!"
+msgstr "Uključena 1 godina besplatnih ažuriranja i nadogradnji!"
+
+#. translators: %2$s expands to 'RS Head Cleaner' plugin name of possibly
+#. conflicting plugin with regard to differentiating output between search
+#. engines and normal users.
+#: admin/class-plugin-conflict.php:85
+msgid "The plugin %2$s changes your site's output and in doing that differentiates between search engines and normal users, a process that's called cloaking. We highly recommend that you disable it."
+msgstr "Dodatak %2$s mijenja izlazne informacije vaše web-stranice i to čini razliku za tražilice i normalne korisnike, proces koji se naziva cloaking. Preporučamo da ga isključite."
+
+#: admin/class-premium-upsell-admin-block.php:59 js/dist/block-editor.js:361
+#: js/dist/classic-editor.js:357 js/dist/elementor.js:361
+#: js/dist/externals-components.js:11 js/dist/externals-components.js:63
+#: js/dist/new-settings.js:256
+msgid "No ads!"
+msgstr "Bez oglasa!"
+
+#: admin/class-premium-upsell-admin-block.php:57 js/dist/new-settings.js:256
+msgid "Facebook & Twitter"
+msgstr "Facebook i Twitter"
+
+#: admin/class-premium-upsell-admin-block.php:57 js/dist/new-settings.js:256
+msgid "Social media preview"
+msgstr "Pretpregled društvenih medija"
+
+#: admin/class-premium-upsell-admin-block.php:55 js/dist/new-settings.js:256
+msgid "Easy redirect manager"
+msgstr "Jednostavni upravitelj preusmjeravanja"
+
+#: admin/class-premium-upsell-admin-block.php:55 js/dist/new-settings.js:256
+msgid "No more dead links"
+msgstr "Nema više mrtvih poveznica"
+
+#: admin/class-premium-upsell-admin-block.php:54 js/dist/new-settings.js:256
+msgid "Increase your SEO reach"
+msgstr "Povećajte svoj SEO domet"
+
+#: admin/class-admin.php:354
+msgid "Scroll to see the table content."
+msgstr "Pomaknite stranicu kako bi vidjeli sadržaj tablice."
+
+#: admin/views/partial-notifications-warnings.php:22
+msgid "No new notifications."
+msgstr "Nema novih obavijesti."
+
+#: admin/class-bulk-editor-list-table.php:892
+msgid "Save all"
+msgstr "Spremi sve"
+
+#: admin/class-bulk-editor-list-table.php:891
+msgid "Save"
+msgstr "Spremi"
+
+#. translators: 1: Author name; 2: Site name.
+#: inc/options/class-wpseo-option-titles.php:247
+msgid "%1$s, Author at %2$s"
+msgstr "%1$s, Autor na %2$s"
+
+#: admin/formatter/class-metabox-formatter.php:236
+#: js/dist/externals/analysis.js:393 js/dist/externals/analysisReport.js:17
+msgid "Marks are disabled in current view"
+msgstr "Oznake (Marks) su onesposobljene u trenutnom pregledu"
+
+#: inc/class-wpseo-replace-vars.php:1515 js/dist/first-time-configuration.js:6
+msgid "Name"
+msgstr "Ime"
+
+#: admin/views/tool-import-export.php:89
+msgid "Export settings"
+msgstr "Izvezi postavke"
+
+#: admin/class-product-upsell-notice.php:169
+msgid "Please don't show me this notification anymore"
+msgstr "Molim više ne prikazuj ovu poruku"
+
+#. translators: %1$s is a link start tag to the bugreport guidelines on the
+#. Yoast help center, %2$s is the link closing tag.
+#: admin/class-product-upsell-notice.php:162
+msgid "If you are experiencing issues, %1$splease file a bug report%2$s and we'll do our best to help you out."
+msgstr "Ako se susrećete s poteškoćama, %1$spopunite izvješće o grešci%2$s a mi ćemo se potruditi riješiti problem."
+
+#. translators: %1$s expands to Yoast SEO, %2$s is a link start tag to the
+#. plugin page on WordPress.org, %3$s is the link closing tag.
+#: admin/class-product-upsell-notice.php:154
+msgid "We've noticed you've been using %1$s for some time now; we hope you love it! We'd be thrilled if you could %2$sgive us a 5 stars rating on WordPress.org%3$s!"
+msgstr "Obavješteni smo da koristite %1$s već neko vrijeme; nadamo se da vam se sviđa! Bili bi smo oduševljeni ako bi ste mogli %2$sdati ocjenu od 5 zvjezdica na WordPress.org%3$s!"
+
+#. translators: %1$s: '%%term_title%%' variable used in titles and meta's
+#. template that's not compatible with the given template, %2$s: expands to
+#. 'HelpScout beacon'
+#: admin/class-admin.php:348
+msgid "Warning: the variable %1$s cannot be used in this template. See the %2$s for more info."
+msgstr "Upozorenje: varijabla %1$s ne može se koristiti u ovom predlošku. Za više informacija poslužite se s %2$s"
+
+#. translators: %1$s expands anchor to premium plugin page, %2$s expands to
+#. </a>
+#: admin/class-product-upsell-notice.php:137
+msgid "By the way, did you know we also have a %1$sPremium plugin%2$s? It offers advanced features, like a redirect manager and support for multiple keyphrases. It also comes with 24/7 personal support."
+msgstr "Usput, jeste li znali da imamo %1$sPremium dodatak%2$s? Nudi vam napredne mogućnosti, poput upravljanje preusmjeravanjima i podršku za više ključnih riječi. Također dolazi s 24/7 osobnom podrškom."
+
+#: admin/class-bulk-editor-list-table.php:799
+msgid "(no title)"
+msgstr "(bez naslova)"
+
+#. translators: 1: Yoast SEO
+#: admin/views/class-yoast-feature-toggles.php:150
+msgid "The %1$s admin bar menu contains useful links to third-party tools for analyzing pages and makes it easy to see if you have new notifications."
+msgstr "%1$s administratorska traka izbornika sadrži korisne veze na alate naših partnera za analizu stranica i čini vam lakšim pogled na nove obavijesti."
+
+#: admin/views/class-yoast-feature-toggles.php:147 js/dist/new-settings.js:14
+#: js/dist/new-settings.js:238 js/dist/new-settings.js:239
+msgid "Admin bar menu"
+msgstr "Administratorska traka izbornika"
+
+#: admin/pages/network.php:19 admin/views/tabs/dashboard/features.php:22
+#: admin/views/tabs/network/features.php:22
+msgid "Features"
+msgstr "Značajke"
+
+#: admin/metabox/class-metabox.php:166 js/dist/externals/analysis.js:221
+#: js/dist/externals/analysis.js:275 js/dist/externals/analysis.js:393
+#: js/dist/externals/replacementVariableEditor.js:78
+#: js/dist/externals/searchMetadataPreviews.js:259 js/dist/new-settings.js:9
+#: js/dist/new-settings.js:11 js/dist/new-settings.js:14
+#: js/dist/new-settings.js:18 js/dist/new-settings.js:51
+#: js/dist/new-settings.js:62 js/dist/new-settings.js:86
+#: js/dist/new-settings.js:109 js/dist/new-settings.js:168
+#: js/dist/new-settings.js:182 js/dist/new-settings.js:192
+#: js/dist/new-settings.js:211
+msgid "SEO title"
+msgstr "SEO naslov"
+
+#: inc/options/class-wpseo-option-titles.php:1005
+msgid "Greater than sign"
+msgstr "Znak više od"
+
+#: inc/options/class-wpseo-option-titles.php:1001
+msgid "Less than sign"
+msgstr "Znak manje od"
+
+#: inc/options/class-wpseo-option-titles.php:997
+msgid "Right angle quotation mark"
+msgstr "Znak navodnika udesno"
+
+#: inc/options/class-wpseo-option-titles.php:993
+msgid "Left angle quotation mark"
+msgstr "Znak navodnika ulijevo"
+
+#: inc/options/class-wpseo-option-titles.php:989
+msgid "Small tilde"
+msgstr "Mala tilda"
+
+#: inc/options/class-wpseo-option-titles.php:985
+msgid "Vertical bar"
+msgstr "Ispravna crta"
+
+#: inc/options/class-wpseo-option-titles.php:981
+msgid "Low asterisk"
+msgstr "Zvjezdica nisko"
+
+#: inc/options/class-wpseo-option-titles.php:977
+msgid "Asterisk"
+msgstr "Zvjezdica"
+
+#: inc/options/class-wpseo-option-titles.php:973
+msgid "Bullet"
+msgstr "Veća točka"
+
+#: inc/options/class-wpseo-option-titles.php:969
+msgid "Middle dot"
+msgstr "Srednja točka"
+
+#: inc/options/class-wpseo-option-titles.php:961
+msgid "Em dash"
+msgstr "Em crtica"
+
+#: inc/options/class-wpseo-option-titles.php:957
+msgid "En dash"
+msgstr "En crtica"
+
+#: inc/options/class-wpseo-option-titles.php:953
+msgid "Dash"
+msgstr "Crtica"
+
+#: admin/metabox/class-metabox.php:177 admin/metabox/class-metabox.php:182
+#: js/dist/block-editor.js:385 js/dist/classic-editor.js:381
+#: js/dist/elementor.js:385
+msgid "No"
+msgstr "Ne"
+
+#: admin/metabox/class-metabox.php:176 admin/metabox/class-metabox.php:181
+#: js/dist/block-editor.js:385 js/dist/classic-editor.js:381
+#: js/dist/elementor.js:385 js/dist/externals/schemaBlocks.js:13
+msgid "Yes"
+msgstr "Da"
+
+#: admin/views/tool-bulk-editor.php:63
+msgid "Posts list"
+msgstr "Lista objava"
+
+#: admin/views/tool-bulk-editor.php:62
+msgid "Posts list navigation"
+msgstr "Navigacija liste objava"
+
+#: admin/views/tool-bulk-editor.php:61
+msgid "Filter posts list"
+msgstr "Filtriraj listu objava"
+
+#. translators: Text between 1: and 2: will only be shown to screen readers. 3:
+#. expands to the product name.
+#. translators: Text between 1: and 2: will only be shown to screen readers. 3:
+#. expands to the product name, e.g. "News SEO" or "all the Yoast Plugins"
+#: admin/views/licenses.php:237 admin/views/licenses.php:347
+msgid "More information %1$sabout %3$s%2$s"
+msgstr "Više informacija %1$so %3$s%2$s"
+
+#: admin/views/licenses.php:184 admin/views/licenses.php:294
+msgid "Installed"
+msgstr "Instalirano"
+
+#: admin/views/licenses.php:178
+msgid "Premium support"
+msgstr "Premium podrška"
+
+#: admin/views/licenses.php:63
+msgid "Optimize your site for Google News"
+msgstr "Optimizirajte svoju web-stranicu za Google News"
+
+#. translators: %s: post title
+#: admin/class-bulk-editor-list-table.php:813
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Uredi &#8220;%s&#8221;"
+
+#: admin/menu/class-base-menu.php:258
+#: src/integrations/admin/menu-badge-integration.php:35
+msgid "Premium"
+msgstr "Premium"
+
+#: admin/class-admin.php:268
+msgid "Get Premium"
+msgstr "Prebaci se na Premium"
+
+#: admin/views/partial-notifications-warnings.php:20
+#: inc/class-wpseo-admin-bar-menu.php:389
+msgid "Notifications"
+msgstr "Obavijesti"
+
+#: admin/views/user-profile.php:48
+msgid "Removes the focus keyphrase section from the metabox and disables all SEO-related suggestions."
+msgstr "Uklanja karticu ključne riječi iz meta okvira i isključuje sve povezane prijedloge za ključnu riječ."
+
+#: admin/views/user-profile.php:45
+msgid "Disable SEO analysis"
+msgstr "Isključi SEO analizu"
+
+#: admin/views/tabs/social/twitterbox.php:17
+msgid "Twitter settings"
+msgstr "Twitter postavke"
+
+#: admin/views/tabs/social/pinterest.php:16
+msgid "Pinterest settings"
+msgstr "Pinterest postavke"
+
+#: admin/views/tabs/social/facebook.php:18
+msgid "Facebook settings"
+msgstr "Facebook postavke"
+
+#: admin/views/js-templates-primary-term.php:28
+msgid "Make primary"
+msgstr "Učini primarnim"
+
+#. translators: %s: number of notifications
+#: admin/menu/class-admin-menu.php:118 inc/class-wpseo-admin-bar-menu.php:846
+msgid "%s notification"
+msgid_plural "%s notifications"
+msgstr[0] "%s obavijest"
+msgstr[1] "%s obavijesti"
+msgstr[2] "%s obavijesti"
+
+#: admin/views/user-profile.php:57
+msgid "Disable readability analysis"
+msgstr "Isključi analizu čitljivosti"
+
+#: admin/views/user-profile.php:60
+msgid "Removes the readability analysis section from the metabox and disables all readability-related suggestions."
+msgstr "Uklanja sekciju analize čitljivosti iz meta okvira i isključuje sve povezane prijedloge za čitljivost."
+
+#: admin/views/class-yoast-feature-toggles.php:83
+#: js/dist/externals-components.js:34 js/dist/new-settings.js:14
+#: js/dist/new-settings.js:238
+msgid "Readability analysis"
+msgstr "Analiza čitljivosti"
+
+#: admin/formatter/class-metabox-formatter.php:122
+#: admin/formatter/class-metabox-formatter.php:152
+#: admin/formatter/class-metabox-formatter.php:182
+#: admin/statistics/class-statistics-service.php:217
+#: inc/class-wpseo-rank.php:140 inc/class-wpseo-rank.php:163
+#: inc/class-wpseo-rank.php:195 js/dist/block-editor.js:1
+#: js/dist/block-editor.js:456 js/dist/editor-modules.js:1
+#: js/dist/externals-components.js:113 js/dist/externals/analysis.js:393
+#: js/dist/frontend-inspector-resources.js:1 js/dist/post-edit.js:11
+#: js/dist/term-edit.js:1
+msgid "Needs improvement"
+msgstr "Treba doraditi"
+
+#: admin/formatter/class-metabox-formatter.php:69
+#: admin/metabox/class-metabox-section-readability.php:28
+#: inc/class-wpseo-admin-bar-menu.php:250
+msgid "Readability"
+msgstr "Čitljivost"
+
+#: admin/formatter/class-metabox-formatter.php:231
+#: js/dist/editor-modules.js:319 js/dist/externals-components.js:15
+#: js/dist/externals/analysisReport.js:35
+msgid "Improvements"
+msgstr "Poboljšanja"
+
+#: admin/views/partial-notifications-errors.php:22
+msgid "Good job! We could detect no serious SEO problems."
+msgstr "Odličan posao! Nismo detektirali nikakve ozbiljne SEO probleme."
+
+#: admin/views/partial-notifications-errors.php:21
+msgid "We have detected the following issues that affect the SEO of your site."
+msgstr "Detektirali smo sljedeće probleme koji utječu na SEO vaše web stranice."
+
+#: admin/formatter/class-metabox-formatter.php:230
+#: admin/views/partial-notifications-errors.php:20
+#: js/dist/editor-modules.js:319 js/dist/externals-components.js:15
+#: js/dist/externals/analysisReport.js:35
+msgid "Problems"
+msgstr "Problemi"
+
+#: admin/formatter/class-metabox-formatter.php:202
+#: js/dist/externals/schemaBlocks.js:9
+msgid "Analysis"
+msgstr "Analiza"
+
+#: admin/formatter/class-metabox-formatter.php:115
+#: admin/formatter/class-metabox-formatter.php:145
+#: admin/formatter/class-metabox-formatter.php:175 inc/class-wpseo-rank.php:138
+msgid "Not available"
+msgstr "Nije dostupno"
+
+#: admin/class-meta-columns.php:241
+msgid "Filter by SEO Score"
+msgstr "Filtriranje po SEO rezultatu"
+
+#: admin/class-meta-columns.php:157
+msgid "Meta description not set."
+msgstr "Meta opis nije postavljen."
+
+#: admin/menu/class-admin-menu.php:54 admin/pages/dashboard.php:32
+msgid "Dashboard"
+msgstr "Nadzorna ploča"
+
+#. translators: %1$s is a link start tag to the permalink settings page, %2$s
+#. is the link closing tag.
+#: src/services/health-check/postname-permalink-reports.php:71
+msgid "You can fix this on the %1$sPermalink settings page%2$s."
+msgstr "Ovo možete popraviti na zaslonu %1$sPostavki stalnih veza%2$s."
+
+#: inc/class-wpseo-replace-vars.php:1479
+msgid "Replaced with the primary category of the post/page"
+msgstr "Zamijeni s primarnom kategorijom objave/stranice"
+
+#: admin/views/tabs/social/pinterest.php:36
+msgid "Pinterest confirmation"
+msgstr "Pinterest potvrda"
+
+#: admin/views/tabs/social/pinterest.php:24
+msgid "If you have already confirmed your website with Pinterest, you can skip the step below."
+msgstr "Ako ste već potvrdili svoju web stranicu s Pinterestom, možete preskočiti korak naveden ispod."
+
+#: admin/views/tabs/dashboard/webmaster-tools.php:24
+msgid "Webmaster Tools verification"
+msgstr "Verifikacija Webmaster Toolsa"
+
+#. translators: $s expands to Yoast SEO Premium
+#. translators: %s expands to the product name, e.g. "News SEO" or "all the
+#. Yoast Plugins"
+#. translators: 1: Yoast WooCommerce SEO
+#: admin/views/licenses.php:224 admin/views/licenses.php:333
+#: js/dist/integrations-page.js:19
+msgid "Buy %s"
+msgstr "Kupi %s"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-bulk-title-editor-list-table.php:50
+msgid "New %1$s Title"
+msgstr "Novi %1$s Naslov"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-bulk-title-editor-list-table.php:48
+msgid "Existing %1$s Title"
+msgstr "Postoji %1$s Naslov"
+
+#: inc/sitemaps/class-sitemaps-cache-validator.php:294
+msgid "Expected an integer as input."
+msgstr "Očekivani unos je cijeli broj."
+
+#: inc/sitemaps/class-sitemaps-cache-validator.php:111
+msgid "Trying to build the sitemap cache key, but the postfix and prefix combination leaves too little room to do this. You are probably requesting a page that is way out of the expected range."
+msgstr "Pri pokušaju kreiranja ključ predmemorije mape stranice (cache key), ali kombinacija postfixa i prefixa ne ostavlja dovoljno mjesta za ovo. Vjerojatno tražite stranicu koja je izvan očekivanoga raspona."
+
+#: src/integrations/admin/crawl-settings-integration.php:279
+msgid "Remove"
+msgstr "Obriši"
+
+#: src/integrations/admin/crawl-settings-integration.php:278
+msgid "Keep"
+msgstr "Zadrži"
+
+#. translators: %s is the taxonomy title. This will be shown to screenreaders
+#: admin/views/js-templates-primary-term.php:38
+msgid "Primary %s"
+msgstr "Primarna %s"
+
+#: admin/views/js-templates-primary-term.php:32
+msgid "Primary"
+msgstr "Primarna"
+
+#. translators: accessibility text. %1$s expands to the term title, %2$s to the
+#. taxonomy title.
+#: admin/views/js-templates-primary-term.php:18
+msgid "Make %1$s primary %2$s"
+msgstr "Postavi %1$s kao primarnu %2$s"
+
+#: admin/pages/network.php:20 admin/views/tabs/dashboard/integrations.php:21
+#: admin/views/tabs/network/integrations.php:22
+#: src/integrations/admin/integrations-page.php:73
+#: js/dist/integrations-page.js:69
+msgid "Integrations"
+msgstr "Integracije"
+
+#: admin/taxonomy/class-taxonomy-columns.php:172
+msgid "Term is set to noindex."
+msgstr "Uvjet je postavljen na noindex."
+
+#: src/integrations/admin/crawl-settings-integration.php:213
+#: src/presenters/admin/light-switch-presenter.php:120
+msgid "Enabled"
+msgstr "Omogući"
+
+#: src/integrations/admin/crawl-settings-integration.php:212
+#: src/presenters/admin/light-switch-presenter.php:120
+msgid "Disabled"
+msgstr "Onemogući"
+
+#. translators: %s: wp_title() function.
+#: inc/class-wpseo-replace-vars.php:1461
+msgid "The separator defined in your theme's %s tag."
+msgstr "Razdjelnik je definiran u Vašoj temi %s oznakom."
+
+#: inc/class-wpseo-rank.php:139
+msgid "No index"
+msgstr "No index"
+
+#: src/deprecated/admin/ryte/class-ryte.php:137
+msgid "Once Weekly"
+msgstr "Jednom tjedno"
+
+#: admin/class-meta-columns.php:100
+#: admin/taxonomy/class-taxonomy-columns.php:87
+#: inc/class-wpseo-admin-bar-menu.php:239
+msgid "SEO score"
+msgstr "SEO rezultat"
+
+#. Author of the plugin
+msgid "Team Yoast"
+msgstr "Tim Yoast"
+
+#. Description of the plugin
+msgid "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more."
+msgstr "Prvo pravo sve-u-jednom SEO rješenje za WordPress, uključujući on-page analizu sadržaja, XML mapom weba i mnogo toga drugog."
+
+#. Plugin Name of the plugin
+#: admin/capabilities/class-capability-manager-integration.php:72
+#: src/presenters/meta-description-presenter.php:36 js/dist/block-editor.js:456
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: wp-seo-main.php:549
+msgid "Activation failed:"
+msgstr "Aktivacija nije uspjela:"
+
+#: wp-seo-main.php:538
+msgid "The filter extension seem to be unavailable. Please ask your web host to enable it."
+msgstr "Izgleda da je nedostupna filter ekstenzija. Kontaktirajte hosting da vam to omoguće."
+
+#. translators: %1$s expands to Yoast SEO, %2$s / %3$s: links to the
+#. installation manual in the Readme for the Yoast SEO code repository on
+#. GitHub
+#: wp-seo-main.php:514
+msgid "The %1$s plugin installation is incomplete. Please refer to %2$sinstallation instructions%3$s."
+msgstr "Instalacija %1$s dodatka nije kompletna. Proučite %2$sinstalacijske upute%3$s."
+
+#: wp-seo-main.php:492
+msgid "The Standard PHP Library (SPL) extension seem to be unavailable. Please ask your web host to enable it."
+msgstr "Nadogradnja Standard PHP Library (SPL) nije dostupna. Zamolite vašeg web poslužitelja da vam je uključi."
+
+#: inc/class-wpseo-admin-bar-menu.php:615
+#: inc/class-wpseo-admin-bar-menu.php:663
+msgid "SEO Settings"
+msgstr "SEO postavke"
+
+#: inc/class-wpseo-admin-bar-menu.php:448
+msgid "Mobile-Friendly Test"
+msgstr "Test mobilne kompatibilnosti"
+
+#: inc/class-wpseo-admin-bar-menu.php:443
+msgid "Google Page Speed Test"
+msgstr "Google Page Speed Test"
+
+#: inc/class-wpseo-admin-bar-menu.php:438
+msgid "Facebook Debugger"
+msgstr "Facebook Debugger"
+
+#: inc/class-wpseo-admin-bar-menu.php:419
+msgid "Analyze this page"
+msgstr "Analiziraj ovu stranicu"
+
+#. translators: %s expands to an invalid URL.
+#: inc/options/class-wpseo-option.php:394
+msgid "%s does not seem to be a valid url. Please correct."
+msgstr "Čini se da %s nije validan url. Molimo izmijenite."
+
+#. translators: 1: Verification string from user input; 2: Service name.
+#: inc/options/class-wpseo-option.php:358
+msgid "%1$s does not seem to be a valid %2$s verification string. Please correct."
+msgstr "%1$s izgleda nije ispravan %2$s verifikacijski niz (string). Ispravite ovo."
+
+#. translators: %s expands to the name of a post type (plural).
+#: inc/class-upgrade.php:1345 inc/options/class-wpseo-option-titles.php:284
+msgid "%s Archive"
+msgstr "%s Arhiva"
+
+#. translators: %s expands to the search phrase.
+#: inc/options/class-wpseo-option-titles.php:249
+msgid "You searched for %s"
+msgstr "Tražili ste %s"
+
+#. translators: %s expands to a twitter user name.
+#: inc/options/class-wpseo-option-social.php:184
+msgid "%s does not seem to be a valid Twitter Username. Please correct."
+msgstr "%s nije ispravan Twitter korisničko ime. Ispravite ovo."
+
+#: inc/options/class-wpseo-option-social.php:110
+msgid "Summary with large image"
+msgstr "Sažetak s velikom slikom"
+
+#. translators: 1: link to post; 2: link to blog.
+#: inc/options/class-wpseo-option-titles.php:252
+msgid "The post %1$s appeared first on %2$s."
+msgstr "Objava %1$s pojavila se prvi puta na %2$s."
+
+#: inc/options/class-wpseo-option-ms.php:245
+msgid "No numeric value was received."
+msgstr "Nije primljena nikakva numerička vrijednost."
+
+#. translators: %s is the ID number of a blog.
+#: inc/options/class-wpseo-option-ms.php:233
+msgid "This must be an existing blog. Blog %s does not exist or has been marked as deleted."
+msgstr "Ovo treba biti postojeći blog. Blog %s ne postoji ili je označen kao obrisan."
+
+#: inc/options/class-wpseo-option-ms.php:229
+#: inc/options/class-wpseo-option-ms.php:245
+msgid "The default blog setting must be the numeric blog id of the blog you want to use as default."
+msgstr "Postavka zadanog bloga treba biti numerički blog ID bloga kojeg želite koristiti kao zadanog."
+
+#. translators: %1$s expands to the option name and %2$sexpands to Yoast SEO
+#: inc/options/class-wpseo-option-ms.php:209
+msgid "%1$s is not a valid choice for who should be allowed access to the %2$s settings. Value reset to the default."
+msgstr "%1$s nije valjani izbor za odabir tko ima pristup %2$s postavkama. Vrijednost je vraćena na izvornu."
+
+#. translators: %s expands to a taxonomy slug.
+#: inc/options/class-wpseo-option-titles.php:557
+msgid "Please select a valid post type for taxonomy \"%s\""
+msgstr "Izaberite ispravan tip objave za taksonomiju \"%s\""
+
+#. translators: %s expands to a post type.
+#: inc/options/class-wpseo-option-titles.php:519
+msgid "Please select a valid taxonomy for post type \"%s\""
+msgstr "Molimo odaberite ispravnu taksonomiju za tip objave \"%s\""
+
+#: inc/options/class-wpseo-option-titles.php:257
+msgid "You searched for"
+msgstr "Tražili ste"
+
+#: inc/options/class-wpseo-option-titles.php:256
+msgid "Home"
+msgstr "Početna stranica"
+
+#: inc/options/class-wpseo-option-titles.php:255
+msgid "Archives for"
+msgstr "Arhiva za"
+
+#: inc/options/class-wpseo-option-titles.php:254
+msgid "Error 404: Page not found"
+msgstr "Greška 404: Stranica nije pronađena"
+
+#: admin/formatter/class-metabox-formatter.php:136
+#: admin/formatter/class-metabox-formatter.php:166
+#: admin/formatter/class-metabox-formatter.php:196
+#: admin/statistics/class-statistics-service.php:227
+#: inc/class-wpseo-rank.php:142 inc/class-wpseo-rank.php:173
+#: inc/class-wpseo-rank.php:205 js/dist/block-editor.js:1
+#: js/dist/block-editor.js:456 js/dist/editor-modules.js:1
+#: js/dist/externals-components.js:113 js/dist/externals/analysis.js:393
+#: js/dist/frontend-inspector-resources.js:1 js/dist/post-edit.js:11
+#: js/dist/term-edit.js:1
+msgid "Good"
+msgstr "Dobro"
+
+#: inc/class-wpseo-replace-vars.php:1525
+msgid "Replaced with a custom taxonomies description"
+msgstr "Zamijenjeno s vlastitim opisom taksonomije"
+
+#: inc/class-wpseo-replace-vars.php:1524
+msgid "Replaced with a posts custom taxonomies, comma separated."
+msgstr "Zamijenjeno s prilagođenim taksonomijama objava, odvojeno zarezom."
+
+#: inc/class-wpseo-replace-vars.php:1523
+msgid "Replaced with a posts custom field value"
+msgstr "Zamijenjeno s sadržajem iz dodatnih polja objava"
+
+#: inc/class-wpseo-replace-vars.php:1522
+msgid "Replaced with the slug which caused the 404"
+msgstr "Zamijenjeno s slugom koji je uzrokovao 404"
+
+#: inc/class-wpseo-replace-vars.php:1521
+msgid "Replaced with the posts focus keyphrase"
+msgstr "Zamijenjeno s fokusiranom ključnom riječi objave"
+
+#: inc/class-wpseo-replace-vars.php:1520
+msgid "Attachment caption"
+msgstr "Naslov privitka"
+
+#: inc/class-wpseo-replace-vars.php:1519
+msgid "Replaced with the current page number"
+msgstr "Zamijenjeno s trenutnim brojem stranice"
+
+#: inc/class-wpseo-replace-vars.php:1518
+msgid "Replaced with the current page total"
+msgstr "Zamijenjeno s sumom trenutne stranice"
+
+#: inc/class-wpseo-replace-vars.php:1517
+msgid "Replaced with the current page number with context (i.e. page 2 of 4)"
+msgstr "Zamijenjeno s trenutnim brojem stranice zajedno s kontekstom (npr. stranica 2 od 4)"
+
+#: inc/class-wpseo-replace-vars.php:1488
+msgid "Replaced with the current year"
+msgstr "Zamijenjeno s trenutnom godinom"
+
+#: inc/class-wpseo-replace-vars.php:1489
+msgid "Replaced with the current month"
+msgstr "Zamijenjeno s trenutnim mjesecom"
+
+#: inc/class-wpseo-replace-vars.php:1490
+msgid "Replaced with the current day"
+msgstr "Zamjenjuje se trenutnim danom"
+
+#: inc/class-wpseo-replace-vars.php:1487
+msgid "Replaced with the current date"
+msgstr "Zamijenjeno s trenutnim datumom"
+
+#: inc/class-wpseo-replace-vars.php:1516
+msgid "Replaced with the post/page author's 'Biographical Info'"
+msgstr "Zamijenjeno s autorovom 'Biografskim informacijama' objave/stranice"
+
+#: inc/class-wpseo-replace-vars.php:1515
+msgid "Replaced with the post/page author's 'nicename'"
+msgstr "Zamijenjeno s 'nicename' imenom autora objave/stranice"
+
+#: inc/class-wpseo-replace-vars.php:1514
+msgid "Replaced with the post/page ID"
+msgstr "Zamijenjeno s ID-em objave/stranice"
+
+#: inc/class-wpseo-replace-vars.php:1513
+msgid "Replaced with the post/page modified time"
+msgstr "Zamijenjeno s promijenjenim vremenom objave/stranice"
+
+#: inc/class-wpseo-replace-vars.php:1512
+msgid "Replaced with the content type plural label"
+msgstr "Zamijenjeno s etiketom množine tipa objave"
+
+#: inc/class-wpseo-replace-vars.php:1511
+msgid "Replaced with the content type single label"
+msgstr "Zamijenjeno s etiketom jednine tipa objave"
+
+#: inc/class-wpseo-replace-vars.php:1484
+msgid "Replaced with the current search phrase"
+msgstr "Zamijenjeno s trenutnom frazom pretrage"
+
+#: inc/class-wpseo-replace-vars.php:1483
+msgid "Replaced with the term name"
+msgstr "Zamijenjeno s nazivom pojma"
+
+#: inc/class-wpseo-replace-vars.php:1482
+msgid "Replaced with the term description"
+msgstr "Zamijenjeno s opisom pojma"
+
+#: inc/class-wpseo-replace-vars.php:1481
+msgid "Replaced with the tag description"
+msgstr "Zamijenjeno s opisom oznake"
+
+#: inc/class-wpseo-replace-vars.php:1480
+msgid "Replaced with the category description"
+msgstr "Zamijenjeno s opisom kategorije"
+
+#: inc/class-wpseo-replace-vars.php:1478
+msgid "Replaced with the post categories (comma separated)"
+msgstr "Zamijenjeno s kategorijom objave (odvojeno zarezom)"
+
+#: inc/class-wpseo-replace-vars.php:1477
+msgid "Replaced with the current tag/tags"
+msgstr "Zamijenjeno s trenutnom oznakom/oznakama"
+
+#: inc/class-wpseo-replace-vars.php:1476
+msgid "Replaced with the post/page excerpt (without auto-generation)"
+msgstr "Zamijenjeno s izvatkom (bez automatski generiranog) objave/stranice"
+
+#: inc/class-wpseo-replace-vars.php:1475
+msgid "Replaced with the post/page excerpt (or auto-generated if it does not exist)"
+msgstr "Zamijenjeno s izvatkom (ili automatski generiranim ako ne postoji) objave/stranice"
+
+#: inc/class-wpseo-replace-vars.php:1473
+msgid "The site's name"
+msgstr "Naziv weba"
+
+#: inc/class-wpseo-replace-vars.php:1471
+msgid "Replaced with the title of the parent page of the current page"
+msgstr "Zamijenjeno s naslovom matične stranice trenutne stranice"
+
+#: inc/class-wpseo-replace-vars.php:1470
+msgid "Replaced with the title of the post/page"
+msgstr "Zamijenjeno s naslovom objave/stranice"
+
+#: inc/class-wpseo-replace-vars.php:1469
+msgid "Replaced with the date of the post/page"
+msgstr "Zamijenjeno s datumom objave/stranice"
+
+#. translators: 1: current page number, 2: total number of pages.
+#: inc/class-wpseo-replace-vars.php:1032
+msgid "Page %1$d of %2$d"
+msgstr "Stranica %1$d od %2$d"
+
+#: inc/class-wpseo-replace-vars.php:122
+msgid "You cannot overrule a WPSEO standard variable replacement by registering a variable with the same name. Use the \"wpseo_replacements\" filter instead to adjust the replacement value."
+msgstr "Ne možete nadvladati WPSEO standardnu zamjensku varijablu registrirajući varijablu s istim imenom. Upotrijebite filter \"wpseo_replacements\" za postavljanje zamjenske vrijednosti."
+
+#: inc/class-wpseo-replace-vars.php:118
+msgid "A replacement variable with the same name has already been registered. Try making your variable name unique."
+msgstr "Zamjenska varijabla s istim imenom je već registrirana. Potrudite se da ime vaše varijable bude jedinstveno."
+
+#: inc/class-wpseo-replace-vars.php:108
+msgid "A replacement variable can not start with \"%%cf_\" or \"%%ct_\" as these are reserved for the WPSEO standard variable variables for custom fields and custom taxonomies. Try making your variable name unique."
+msgstr "Zamjensku varijablu ne možete započeti s \"%%cf_\" ili \"%%ct_\" zato jer su rezervirane za WPSEO standardnu varijablu varijabli (standard variable variables) za dodatna polja i prilagođene taksonomije. Potrudite se da ime vaše varijable bude jedinstveno."
+
+#: inc/class-wpseo-replace-vars.php:105
+msgid "A replacement variable can only contain alphanumeric characters, an underscore or a dash. Try renaming your variable."
+msgstr "Zamjenska varijabla može sadržavati samo alfanumeričke znakove, donju crticu ili crticu. Probajte promijeniti varijablu."
+
+#. translators: %1$s resolves to Yoast SEO, %2$s resolves to the Settings
+#. submenu item.
+#: src/presenters/meta-description-presenter.php:35
+msgid "Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [%1$s - %2$s] menu and set up a template."
+msgstr "Napomena samo za administratore: ova stranica ne pokazuje meta opis zato jer ga nema, ili ga napišite posebno za ovu stranicu ili idite u izbornik [%1$s - %2$s], i postavite predložak."
+
+#: inc/options/class-wpseo-option-titles.php:250
+msgid "Page not found"
+msgstr "Stranica nije pronađena"
+
+#. translators: %s expands to the variable used for term title.
+#: admin/formatter/class-term-metabox-formatter.php:164
+#: inc/class-upgrade.php:1348 inc/options/class-wpseo-option-titles.php:320
+msgid "%s Archives"
+msgstr "Arhiva %s"
+
+#: admin/views/user-profile.php:28
+msgid "Meta description to use for Author page"
+msgstr "Meta opis za korištenje na stranicama autora"
+
+#: admin/views/user-profile.php:24
+msgid "Title to use for Author page"
+msgstr "Naslov koji se koristi na stranici autora"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/user-profile.php:11
+msgid "%1$s settings"
+msgstr "%1$s postavke"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/tool/wpseo-export.php:15
+msgid "Export your %1$s settings"
+msgstr "Izvezi svoje %1$s postavke"
+
+#: admin/class-export.php:61 admin/views/tabs/tool/wpseo-import.php:25
+#: admin/views/tabs/tool/wpseo-import.php:45
+#: admin/views/tool-import-export.php:86
+msgid "Import settings"
+msgstr "Uvoz postavki"
+
+#: admin/views/tabs/tool/import-seo.php:18
+#: admin/views/tabs/tool/import-seo.php:49
+#: admin/views/tool-import-export.php:92
+msgid "Import from other SEO plugins"
+msgstr "Uvezi iz ostalih SEO dodataka ( plugin )"
+
+#: admin/views/tabs/tool/import-seo.php:100
+msgid "Import"
+msgstr "Uvoz"
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:135 admin/views/tool-file-editor.php:235
+msgid "If you had a %s file and it was editable, you could edit it from here."
+msgstr "Da imate %s datoteku i da je možete mijenjati, mogli biste to uraditi ovdje."
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:153 admin/views/tool-file-editor.php:203
+msgid "If your %s were writable, you could edit it from here."
+msgstr "Da se u datoteku %s može pisati, mogli biste je izmijeniti ovdje."
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:116
+msgid "You don't have a %s file, create one here:"
+msgstr "Nemate %s datoteku, kreirajte ju ovdje:"
+
+#: admin/statistics/class-statistics-service.php:80
+msgid "Below are your published posts' SEO scores. Now is as good a time as any to start improving some of your posts!"
+msgstr "Ispod su SEO rezultati vaših objavljene objava. Sada je pravo vrijeme da počnete poboljšavati neke od svojih objava! "
+
+#: admin/views/tabs/dashboard/dashboard.php:52
+msgid "Credits"
+msgstr "Zasluge"
+
+#: admin/pages/tools.php:90
+msgid "&laquo; Back to Tools page"
+msgstr "&laquo; Natrag na stranicu s alatima"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/pages/tools.php:49
+msgid "%1$s comes with some very powerful built-in tools:"
+msgstr "%1$s dolazi s nekim vrlo moćnim ugrađenim alatima:"
+
+#: admin/pages/tools.php:37
+msgid "This tool allows you to quickly change important files for your SEO, like your robots.txt and, if you have one, your .htaccess file."
+msgstr "Ovaj alat dopušta vam brzo mijenjanje datoteka važnih za vaš SEO, kao što su robots.txt, ako je imate, ili vaša .htaccess datoteka."
+
+#: admin/pages/tools.php:36
+msgid "File editor"
+msgstr "Uređivač datoteka"
+
+#: admin/pages/tools.php:30
+msgid "Import and Export"
+msgstr "Uvoz i izvoz"
+
+#: admin/pages/tools.php:43
+msgid "This tool allows you to quickly change titles and descriptions of your posts and pages without having to go into the editor for each page."
+msgstr "Ovaj alat dopušta vam da brzo izmijenite naslove i opise u svojim objavama i na stranicama, bez da morate otvarati i uređivati svaku stranicu."
+
+#: admin/pages/tools.php:42
+msgid "Bulk editor"
+msgstr "Skupni uređivač"
+
+#. translators: %1$s / %2$s expands to a link to pinterest.com's help page.
+#: admin/views/tabs/social/pinterest.php:30
+msgid "To %1$sconfirm your site with Pinterest%2$s, add the meta tag here:"
+msgstr "Za %1$sverificiranje stranice kod Pinterest%2$s, dodajte meta oznaku ovdje:"
+
+#: admin/views/tabs/social/pinterest.php:20
+msgid "Pinterest uses Open Graph metadata just like Facebook, so be sure to keep the \"Add Open Graph meta data\" setting on the Facebook tab enabled if you want to optimize your site for Pinterest."
+msgstr "Pinterest koristi Open Graph meta oznake kao i Facebook. Zato budite  sigurni da je \"Dodaj Open Graph meta podatke\" postavka omogućena na Facebook tab-u ukoliko želite optimizirati stranicu za Pinterest."
+
+#: admin/views/tabs/social/twitterbox.php:24
+msgid "Add Twitter card meta data"
+msgstr "Dodaj Twitter card meta podatke"
+
+#: admin/views/tabs/social/facebook.php:54
+msgid "This image is used if the post/page being shared does not contain any images."
+msgstr "Slika se koristi ako objava/stranica koja se dijeli ne sadrži nikakve slike."
+
+#: src/integrations/admin/import-integration.php:117
+msgid "Default settings"
+msgstr "Zadane postavke"
+
+#: admin/views/tool-bulk-editor.php:111 js/dist/new-settings.js:213
+msgid "Description"
+msgstr "Opis"
+
+#: admin/views/tabs/social/facebook.php:20
+msgid "Add Open Graph meta data"
+msgstr "Dodaj Open Graph meta podatke"
+
+#: admin/pages/social.php:18
+msgid "Accounts"
+msgstr "Računi"
+
+#: admin/views/tabs/network/restore-site.php:32
+msgid "Restore site to defaults"
+msgstr "Vrati web na zadane postavke"
+
+#: admin/views/tabs/network/restore-site.php:23
+#: admin/views/tabs/network/restore-site.php:28
+msgid "Site ID"
+msgstr "ID weba"
+
+#: admin/views/tabs/network/restore-site.php:16
+msgid "Using this form you can reset a site to the default SEO settings."
+msgstr "Koristeći ovu formu možete resetirati web na zadane SEO postavke."
+
+#: admin/views/tabs/network/general.php:54
+msgid "Privacy sensitive (FB admins and such), theme specific (title rewrite) and a few very site specific settings will not be imported to new sites."
+msgstr "Važna obavijest: Postavke koje se tiču privatno osjetljivih informacija (FB admini i slično), postavke teme (ispis naslova) i neke druge specifične postavke neće biti uveze u nove web-stranice."
+
+#. translators: 1: link open tag; 2: link close tag.
+#: admin/views/tabs/network/general.php:47
+msgid "Enter the %1$sSite ID%2$s for the site whose settings you want to use as default for all sites that are added to your network. Leave empty for none (i.e. the normal plugin defaults will be used)."
+msgstr "Upišite %1$sID web stranice%2$s čije postavke želite da budu zadane postavke za sve web stranice koje se nalaze u vašoj mreži. Ostavite prazno za nikakav odabir (biti će upotrijebljene izvorne postavke dodatka)."
+
+#: admin/views/tabs/network/general.php:40
+msgid "Choose the site whose settings you want to use as default for all sites that are added to your network. If you choose 'None', the normal plugin defaults will be used."
+msgstr "Odaberite web stranicu čije postavke želite koristiti kao zadane za sve web stranice koje se nalaze u vašoj mreži. Ako odaberete 'Ništa', biti će upotrijebljene izvorne postavke dodatka."
+
+#: admin/views/tabs/network/general.php:37
+#: admin/views/tabs/network/general.php:43
+msgid "New sites in the network inherit their SEO settings from this site"
+msgstr "Novi webovi u mreži nasljeđuju SEO postavke ovog weba"
+
+#: admin/views/tabs/network/general.php:28
+msgid "Super Admins only"
+msgstr "Samo Super Admini"
+
+#: admin/views/tabs/network/general.php:27
+msgid "Site Admins (default)"
+msgstr "Administratori weba (zadano)"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/network/general.php:25
+msgid "Who should have access to the %1$s settings"
+msgstr "Tko bi trebao imati pristup %1$s postavkama"
+
+#: admin/class-yoast-network-admin.php:80
+msgid "spam"
+msgstr "spam"
+
+#: admin/class-yoast-network-admin.php:79
+msgid "mature"
+msgstr "zreli"
+
+#: admin/class-yoast-network-admin.php:78
+msgid "archived"
+msgstr "arhiviran"
+
+#: admin/class-yoast-network-admin.php:77
+msgid "public"
+msgstr "javni"
+
+#. translators: %s expands to the name of a site within a multisite network.
+#: admin/class-yoast-network-admin.php:174
+msgid "%s restored to default SEO settings."
+msgstr "%s vraćeni na izvorne SEO postavke."
+
+#: admin/class-yoast-network-admin.php:140
+msgid "Settings Updated."
+msgstr "Postavke ažurirane."
+
+#: admin/views/tool-bulk-editor.php:109 inc/class-wpseo-replace-vars.php:1470
+#: js/dist/externals-redux.js:1
+msgid "Title"
+msgstr "Naslov"
+
+#: admin/views/tabs/network/general.php:54
+msgid "Take note:"
+msgstr "Uzmi zabilješku:"
+
+#. translators: %1$s expands to Yoast SEO.
+#: admin/views/licenses.php:122
+msgid "%1$s Extensions"
+msgstr "%1$s ekstenzije"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-plugin-availability.php:82 admin/views/licenses.php:79
+msgid "Seamlessly integrate WooCommerce with %1$s and get extra features!"
+msgstr "Neprimjetno integrirajte WooCommerce s %1$s kako biste dobili dodatne značajke!"
+
+#: admin/class-plugin-availability.php:70 admin/views/licenses.php:32
+msgid "Rank better locally and in Google Maps, without breaking a sweat!"
+msgstr "Bolje se rangirajte lokalno i na Google Maps, bez puno muke!"
+
+#: admin/class-plugin-availability.php:60 admin/views/licenses.php:60
+msgid "Are you in Google News? Increase your traffic from Google News by optimizing for it!"
+msgstr "Da li se nalazite u Google News? Povećajte broj posjeta s Google News optimizirajući sadržaj!"
+
+#: admin/class-plugin-availability.php:50 admin/views/licenses.php:46
+msgid "Optimize your videos to show them off in search results and get more clicks!"
+msgstr "Optimizirajte svoje video uradke kako bi bili vidljivi u rezultatima pretraživanja i donijeli vam više klikova!"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-plugin-availability.php:38 admin/views/licenses.php:22
+msgid "The premium version of %1$s with more features & support."
+msgstr "Premium inačica %1$s s više mogućnosti i podrškom."
+
+#: src/integrations/admin/first-time-configuration-integration.php:516
+#: js/dist/new-settings.js:242
+msgid "Person"
+msgstr "Osoba"
+
+#: inc/class-wpseo-replace-vars.php:1496
+msgid "Permalink"
+msgstr "Stalne veze"
+
+#: vendor_prefixed/wordproof/wordpress-sdk/app/Translations/DefaultTranslations.php:43
+msgid "Authenticate"
+msgstr "Autentifikacija"
+
+#. Translators: %1$s: expands to 'Yoast SEO Premium', %2$s: links to Yoast SEO
+#. Premium plugin page.
+#: admin/google_search_console/views/gsc-redirect-nopremium.php:22
+msgid "To be able to create a redirect and fix this issue, you need %1$s. You can buy the plugin, including one year of support and updates, on %2$s."
+msgstr "Kako bi kreirali preusmjeravanje i ispravili ovaj problem, trebate %1$s. Dodatak možete kupiti, uključujući godinu dana podrške, ažuriranja i nadogradnji na %2$s."
+
+#. Translators: %s: expands to Yoast SEO Premium
+#: admin/google_search_console/views/gsc-redirect-nopremium.php:15
+msgid "Creating redirects is a %s feature"
+msgstr "Stvaranje preusmjeravanja je dostupno kao dio %s "
+
+#: admin/views/redirects.php:112
+msgid "URL"
+msgstr "URL"
+
+#. translators: %s: 'Facebook' plugin name of possibly conflicting plugin
+#: admin/class-yoast-plugin-conflict.php:182
+msgid "Deactivate %s"
+msgstr "Deaktivirajte %s"
+
+#. translators: %1$s: 'Facebook & Open Graph' plugin name(s) of possibly
+#. conflicting plugin(s), %2$s to Yoast SEO
+#: admin/class-yoast-plugin-conflict.php:178
+msgid "The %1$s plugin might cause issues when used in conjunction with %2$s."
+msgstr "%1$s dodatak može uzrokovati probleme kada se koristi zajedno s %2$s."
+
+#: admin/class-yoast-form.php:741 admin/metabox/class-metabox.php:645
+#: admin/taxonomy/class-taxonomy-fields-presenter.php:127
+msgid "Upload Image"
+msgstr "Upload slike"
+
+#. translators: %s is the plugin name
+#: admin/class-yoast-dashboard-widget.php:75
+msgid "%s Posts Overview"
+msgstr "%s pregled objava"
+
+#: admin/pages/social.php:21 js/dist/new-settings.js:18
+#: js/dist/new-settings.js:252
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: src/deprecated/src/integrations/admin/social-templates-integration.php:219
+msgid "Social settings"
+msgstr "Društvene postavke"
+
+#: admin/google_search_console/views/gsc-redirect-nopremium.php:27
+#: js/dist/externals-components.js:78 js/dist/externals/componentsNew.js:136
+#: js/dist/indexables-page.js:43 js/dist/indexables-page.js:44
+#: js/dist/new-settings.js:1 js/dist/new-settings.js:22
+msgid "Close"
+msgstr "Zatvori"
+
+#. translators: %1$s expands to Yoast SEO, %2$s: 'Google XML Sitemaps' plugin
+#. name of possibly conflicting plugin with regard to the creation of sitemaps.
+#: admin/class-plugin-conflict.php:76
+msgid "Both %1$s and %2$s can create XML sitemaps. Having two XML sitemaps is not beneficial for search engines and might slow down your site."
+msgstr "%1$s i %2$s mogu kreirati XML mape stranica. Dvostruke XML mape stranica nisu korisne pretraživačima, mogu čak i usporiti vašu web stranicu."
+
+#. translators: %1$s expands to Yoast SEO.
+#: admin/class-plugin-conflict.php:69
+msgid "Configure %1$s's Open Graph settings"
+msgstr "Konfiguracija %1$s OpenGraph postavki"
+
+#. translators: %1$s expands to Yoast SEO, %2$s: 'Facebook' plugin name of
+#. possibly conflicting plugin with regard to creating OpenGraph output.
+#: admin/class-plugin-conflict.php:65
+msgid "Both %1$s and %2$s create Open Graph output, which might make Facebook, Twitter, LinkedIn and other social networks use the wrong texts and images when your pages are being shared."
+msgstr "I %1$s i %2$s stvaraju OpenGraph rezultat, što bi moglo izazvati prikazivanje krivih tekstova i slika na Facebooku, Twitteru, LinkedInu i drugim društvenim mrežama, kada se stranice dijele."
+
+#: admin/pages/social.php:20 js/dist/block-editor.js:456
+#: js/dist/first-time-configuration.js:1 js/dist/new-settings.js:244
+#: js/dist/settings.js:1
+msgid "Twitter"
+msgstr "Twitter"
+
+#: admin/pages/social.php:19 js/dist/block-editor.js:456
+#: js/dist/first-time-configuration.js:1 js/dist/new-settings.js:18
+#: js/dist/new-settings.js:244 js/dist/settings.js:1
+msgid "Facebook"
+msgstr "Facebook"
+
+#: admin/formatter/class-metabox-formatter.php:129
+#: admin/formatter/class-metabox-formatter.php:159
+#: admin/statistics/class-statistics-service.php:222
+#: inc/class-wpseo-rank.php:141 inc/class-wpseo-rank.php:168
+#: inc/class-wpseo-rank.php:200 js/dist/block-editor.js:1
+#: js/dist/editor-modules.js:1 js/dist/externals-components.js:113
+#: js/dist/externals/analysis.js:393 js/dist/frontend-inspector-resources.js:1
+#: js/dist/post-edit.js:11 js/dist/term-edit.js:1
+msgid "OK"
+msgstr "u redu"
+
+#: admin/class-meta-columns.php:108
+msgid "Meta Desc."
+msgstr "Meta opis"
+
+#: admin/class-meta-columns.php:245
+msgid "All SEO Scores"
+msgstr "Svi SEO rezultati"
+
+#: admin/metabox/class-metabox.php:928
+#: src/integrations/third-party/elementor.php:459
+msgid "SEO issue: The featured image should be at least 200 by 200 pixels to be picked up by Facebook and other social media sites."
+msgstr "SEO problem: Istaknuta slika treba biti najmanje 200x200 piksela velika da bi bila prihvatljiva za Facebook i druge stranice društvenih mreža."
+
+#: admin/metabox/class-metabox.php:882 admin/taxonomy/class-taxonomy.php:160
+#: admin/taxonomy/class-taxonomy.php:289
+#: src/integrations/third-party/elementor.php:413
+msgid "(no parent)"
+msgstr "(nema roditelja)"
+
+#: admin/class-meta-columns.php:700
+msgid "Post is set to noindex."
+msgstr "Objava je postavljena na noindex."
+
+#: admin/metabox/class-metabox.php:209
+msgid "The URL that this page should redirect to."
+msgstr "URL na koji bi ova stranica se trebala preusmjeriti."
+
+#: admin/metabox/class-metabox.php:208
+msgid "301 Redirect"
+msgstr "301 preusmjeravanje"
+
+#. translators: 1: link open tag; 2: link close tag.
+#: admin/metabox/class-metabox.php:197
+msgid "The canonical URL that this page should point to. Leave empty to default to permalink. %1$sCross domain canonical%2$s supported too."
+msgstr "Propisani URL na koji ova stranica treba usmjeravati. Ostavite prazan kao zadan za stalnu vezu. %1$sPodržava međudomenske propisane%2$s."
+
+#: admin/metabox/class-metabox.php:193 js/dist/block-editor.js:393
+#: js/dist/classic-editor.js:389 js/dist/elementor.js:393
+msgid "Canonical URL"
+msgstr "Kanonični URL"
+
+#: admin/metabox/class-metabox.php:191
+msgid "Title to use for this page in breadcrumb paths"
+msgstr "Naslov koji će se koristiti za ovu stranicu u breadcrumb putanji"
+
+#: admin/metabox/class-metabox.php:190 js/dist/block-editor.js:393
+#: js/dist/classic-editor.js:389 js/dist/elementor.js:393
+msgid "Breadcrumbs Title"
+msgstr "Breadcrumbs Naslov"
+
+#: admin/metabox/class-metabox.php:188 js/dist/block-editor.js:393
+#: js/dist/classic-editor.js:389 js/dist/elementor.js:393
+msgid "No Snippet"
+msgstr "Nema isječka"
+
+#: admin/metabox/class-metabox.php:187 js/dist/block-editor.js:393
+#: js/dist/classic-editor.js:389 js/dist/elementor.js:393
+msgid "No Archive"
+msgstr "Nema arhive"
+
+#: admin/metabox/class-metabox.php:186 js/dist/block-editor.js:393
+#: js/dist/classic-editor.js:389 js/dist/elementor.js:393
+msgid "No Image Index"
+msgstr "Bez indeksa slika"
+
+#: admin/class-yoast-network-admin.php:43 src/config/schema-types.php:163
+#: js/dist/new-settings.js:258
+msgid "None"
+msgstr "Nijedno"
+
+#: admin/metabox/class-metabox.php:184 js/dist/block-editor.js:393
+#: js/dist/classic-editor.js:389 js/dist/elementor.js:393
+msgid "Meta robots advanced"
+msgstr "Napredni meta roboti"
+
+#: admin/metabox/class-metabox.php:172
+msgid "Warning: even though you can set the meta robots setting here, the entire site is set to noindex in the sitewide privacy settings, so these settings won't have an effect."
+msgstr "Upozorenje: iako se postavke meta robota mogu podesiti ovdje, cijeli web je podešen da se ne indeksira (noindex) u glavnim postavkama privatnosti stoga ove postavke neće imati učinka."
+
+#: admin/metabox/class-metabox.php:167 js/dist/externals/analysis.js:393
+#: js/dist/externals/replacementVariableEditor.js:78
+#: js/dist/externals/searchMetadataPreviews.js:259 js/dist/new-settings.js:9
+#: js/dist/new-settings.js:11 js/dist/new-settings.js:14
+#: js/dist/new-settings.js:18 js/dist/new-settings.js:51
+#: js/dist/new-settings.js:62 js/dist/new-settings.js:86
+#: js/dist/new-settings.js:109 js/dist/new-settings.js:168
+#: js/dist/new-settings.js:182 js/dist/new-settings.js:192
+#: js/dist/new-settings.js:211
+msgid "Meta description"
+msgstr "Meta opis"
+
+#: admin/class-meta-columns.php:107
+msgid "SEO Title"
+msgstr "SEO naslov"
+
+#: inc/class-wpseo-replace-vars.php:1521
+msgid "Focus keyword"
+msgstr "Fokusirana ključna riječ"
+
+#: admin/import/class-import-settings.php:117
+msgid "Settings successfully imported."
+msgstr "Postavke uspješno uvezene."
+
+#: admin/import/class-import-settings.php:85
+msgid "Settings could not be imported:"
+msgstr "Postavke nisu uvezene:"
+
+#: admin/class-customizer.php:193
+msgid "Breadcrumb for 404 pages:"
+msgstr "Breadcrumb za 404 stranice:"
+
+#: admin/class-customizer.php:181
+msgid "Prefix for search result pages:"
+msgstr "Prefiks za stranicu s rezultatima pretrage:"
+
+#: admin/class-customizer.php:169
+msgid "Prefix for archive pages:"
+msgstr "Prefiks za stranice arhive:"
+
+#: admin/class-customizer.php:157
+msgid "Prefix for breadcrumbs:"
+msgstr "Prefiks za breadcrumbove:"
+
+#: admin/class-customizer.php:145
+msgid "Anchor text for the homepage:"
+msgstr "Sidrišni tekst za početnu/naslovnu stranicu:"
+
+#: admin/class-customizer.php:132
+msgid "Breadcrumbs separator:"
+msgstr "Breadcrumb razdjelnik:"
+
+#. translators: %s is the name of the plugin
+#: admin/class-customizer.php:86
+msgid "%s Breadcrumbs"
+msgstr "%s Breadcrumbovi"
+
+#: admin/class-config.php:104 admin/metabox/class-metabox.php:907
+#: admin/taxonomy/class-taxonomy.php:175
+#: src/integrations/third-party/elementor.php:439
+msgid "Use Image"
+msgstr "Koristi sliku"
+
+#: admin/class-bulk-editor-list-table.php:1011
+msgid "Action"
+msgstr "Akcija"
+
+#: admin/class-bulk-editor-list-table.php:1006
+msgid "Page URL/Slug"
+msgstr "Slug/URL stranice"
+
+#: admin/class-bulk-editor-list-table.php:1005
+msgid "Publication date"
+msgstr "Datum objavljivanja"
+
+#: admin/class-bulk-editor-list-table.php:1004
+msgid "Post Status"
+msgstr "Status objave"
+
+#: admin/class-bulk-editor-list-table.php:1002
+msgid "WP Page Title"
+msgstr "WP naslov stranice"
+
+#: admin/class-bulk-editor-list-table.php:836 js/dist/block-editor.js:303
+#: js/dist/classic-editor.js:299 js/dist/dashboard-widget.js:1
+#: js/dist/dashboard-widget.js:20 js/dist/editor-modules.js:261
+#: js/dist/elementor.js:303
+msgid "View"
+msgstr "Pregled"
+
+#. translators: %s: post title
+#: admin/class-bulk-editor-list-table.php:835
+msgid "View &#8220;%s&#8221;"
+msgstr "Pregled &#8220;%s&#8221;"
+
+#: admin/class-bulk-editor-list-table.php:826
+msgid "Preview"
+msgstr "Predpregled"
+
+#. translators: %s: post title
+#: admin/class-bulk-editor-list-table.php:825
+msgid "Preview &#8220;%s&#8221;"
+msgstr "Predpregled &#8220;%s&#8221;"
+
+#: admin/class-bulk-editor-list-table.php:814
+#: js/dist/first-time-configuration.js:14
+#: js/dist/first-time-configuration.js:226 js/dist/indexables-page.js:34
+#: js/dist/indexables-page.js:35 js/dist/indexables-page.js:46
+#: js/dist/installation-success.js:13
+msgid "Edit"
+msgstr "Izmijeni"
+
+#: admin/class-bulk-editor-list-table.php:420 admin/views/redirects.php:141
+msgid "Filter"
+msgstr "Filtar"
+
+#. translators: %s expands to the number of trashed posts in localized format.
+#: admin/class-bulk-editor-list-table.php:342
+msgctxt "posts"
+msgid "Trash <span class=\"count\">(%s)</span>"
+msgid_plural "Trash <span class=\"count\">(%s)</span>"
+msgstr[0] "Smeće <span class=\"count\">(%s)</span>"
+msgstr[1] "Smeća <span class=\"count\">(%s)</span>"
+msgstr[2] "Smeća <span class=\"count\">(%s)</span>"
+
+#. translators: %s expands to the number of posts in localized format.
+#: admin/class-bulk-editor-list-table.php:293
+msgctxt "posts"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Sva <span class=\"count\">(%s)</span>"
+msgstr[1] "Sve <span class=\"count\">(%s)</span>"
+msgstr[2] "Svih <span class=\"count\">(%s)</span>"
+
+#: admin/class-bulk-description-editor-list-table.php:47
+msgid "New Yoast Meta Description"
+msgstr "Novi Yoast meta opis"
+
+#: admin/class-bulk-description-editor-list-table.php:46
+msgid "Existing Yoast Meta Description"
+msgstr "Postojeći Yoast Meta opis"
+
+#: admin/class-admin.php:301
+msgid "Facebook profile URL"
+msgstr "URL Facebook profila"
+
+#: admin/class-admin.php:308
+msgid "Twitter username (without @)"
+msgstr "Korisničko ime na Twitteru (bez @)"
+
+#: admin/class-admin.php:231 js/dist/structured-data-blocks.js:13
+msgid "FAQ"
+msgstr "Česta pitanja"
+
+#: admin/class-admin.php:226 admin/views/redirects.php:42
+#: src/integrations/settings-integration.php:301
+#: src/presenters/meta-description-presenter.php:37
+#: js/dist/structured-data-blocks.js:9
+msgid "Settings"
+msgstr "Postavke"
+
+#: src/presenters/admin/search-engines-discouraged-presenter.php:33
+msgid "Huge SEO Issue: You're blocking access to robots."
+msgstr "Veliki SEO problem: blokirali ste pristup robotima tj. tražilicama."
+
+#: admin/class-admin.php:184
+msgid "Posts"
+msgstr "Objave"
+
+#: admin/menu/class-network-admin-menu.php:63
+msgid "Edit Files"
+msgstr "Izmijeni datoteke"
+
+#: admin/menu/class-admin-menu.php:89
+#: admin/menu/class-network-admin-menu.php:56 admin/pages/network.php:18
+#: js/dist/new-settings.js:254
+msgid "General"
+msgstr "Općenito"
+
+#: admin/menu/class-network-admin-menu.php:66
+msgid "Extensions"
+msgstr "Nadogradnje"
+
+#: admin/menu/class-admin-menu.php:91
+msgid "Search Console"
+msgstr "Search Console"
+
+#: admin/menu/class-admin-menu.php:95 js/dist/new-settings.js:238
+msgid "Tools"
+msgstr "Alati"
+
+#: admin/views/class-yoast-feature-toggles.php:136 js/dist/new-settings.js:14
+#: js/dist/new-settings.js:239 js/dist/new-settings.js:240
+msgid "XML sitemaps"
+msgstr "XML mape stranica"
+
+#: admin/metabox/class-metabox.php:436
+#: admin/taxonomy/class-taxonomy-metabox.php:158 js/dist/new-settings.js:18
+msgid "Social"
+msgstr "Društvene mreže"
+
+#: admin/metabox/class-metabox.php:411
+#: admin/taxonomy/class-taxonomy-metabox.php:140
+#: inc/class-wpseo-admin-bar-menu.php:694
+#: src/services/health-check/report-builder.php:168
+#: js/dist/structured-data-blocks.js:13
+msgid "SEO"
+msgstr "SEO"
+
+#. translators: %1$s expands to Yoast SEO, %2$s expands to the installed
+#. version, %3$s expands to Gutenberg
+#: admin/class-admin-gutenberg-compatibility-notification.php:88
+msgid "%1$s detected you are using version %2$s of %3$s, please update to the latest version to prevent compatibility issues."
+msgstr "%1$s je otkrio da koristite verziju %2$s od %3$s, molimo ažurirajte na najnoviju verziju kako bi spriječili probleme nekompatibilnosti."
+
+#: src/services/health-check/default-tagline-runner.php:31
+msgid "Just another WordPress site"
+msgstr "Samo još jedna WordPress web-stranica"
+
+#: admin/ajax.php:194
+msgid "You have used HTML in your value which is not allowed."
+msgstr "Koristili ste HTML u svojoj vrijednosti što nije dopušteno."
+
+#. translators: %s expands to the name of a post type (plural).
+#: admin/ajax.php:185
+msgid "You can't edit %s that aren't yours."
+msgstr "Ne možete ažurirati %s koji nisu vaši."
+
+#. translators: %s expands to post type name.
+#: admin/ajax.php:173
+msgid "You can't edit %s."
+msgstr "Ne možete ažurirati %s."
+
+#. translators: %s expands to post type.
+#: admin/ajax.php:161
+msgid "Post has an invalid Content Type: %s."
+msgstr "Objava ima ne važeći tip objave: %s."
+
+#: admin/ajax.php:150
+msgid "Post doesn't exist."
+msgstr "Objava ne postoji."

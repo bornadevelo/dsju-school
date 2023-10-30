@@ -1,0 +1,274 @@
+/* DSJU Custom schedule for Shortcode*/
+.ds-schedule {
+    padding: 24px 16px;
+}
+
+.ds-schedule__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ds-schedule__filters {
+    display: flex;
+    column-gap: 16px;
+}
+
+.ds-schedule__filters select {
+    height: 32px;
+    padding: 0;
+}
+
+.ds-schedule__title {
+    font-family: Inter, sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 30px !important;
+    color: #000000;
+    margin: 0 0 24px;
+}
+
+.ds-schedule__items {
+    display: grid;
+    row-gap: 32px;
+}
+
+.ds-schedule__message {
+    padding-bottom: 110px;
+}
+
+.ds-event {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.ds-event__title {
+    display: flex;
+    align-self: center;
+    margin: 0;
+    font-family: Roboto, sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 22px !important;
+    padding: 30px;
+}
+
+.ds-event__title-link {
+    color: inherit !important;
+}
+
+.ds-event__details {
+    display: grid;
+    row-gap: 34px;
+    padding: 20px 30px;
+    background-color: #E7E7E7B3;
+}
+
+.ds-event__detail {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.ds-event__detail-title {
+    margin: 0 0 10px;
+    font-family: Roboto, sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
+
+.ds-event__detail-text {
+    margin: 0;
+    font-family: Roboto, sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 16px !important;
+}
+
+.ds-event__link {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 20px 30px;
+    font-family: Roboto, sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 21px !important;
+    color: #151515 !important;
+    text-transform: uppercase;
+}
+
+.ds-event__link.ds-event__link_disabled {
+    pointer-events: none;
+    color: #cacaca !important;
+}
+
+@media screen and (min-width: 576px) {
+    .ds-event__details {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ds-schedule {
+        padding: 8px 16px 32px;
+    }
+
+    .ds-event__details {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .ds-schedule {
+        padding: 8px 20px 48px;
+        margin: 0 auto;
+    }
+
+    .ds-schedule__items {
+        row-gap: 38px;
+    }
+
+    .ds-event {
+        display: grid;
+        grid-template-columns: 30% auto 150px;
+    }
+
+    .ds-event__details {
+        column-gap: 34px;
+    }
+}
+
+@media screen and (min-width: 1540px) {
+    .ds-schedule {
+        max-width: 1450px;
+        padding: 8px 0 48px;
+    }
+}
+
+/* DSJU custom single event page */
+.tribe-events-pg-template {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 100% !important;
+}
+
+.ds-single-event__featured {
+    background-color: #E7E7E7B3;
+}
+
+.ds-single-event__breadcrumbs {
+    padding: 0 16px 16px;
+}
+
+.ds-breadcrumb {
+    font-size: 14px;
+}
+
+.ds-breadcrumb__item {
+    color: #151515 !important;
+}
+
+.ds-breadcrumb__item:last-child {
+    color: #6e478b !important;
+}
+
+.ds-breadcrumb__item:hover {
+    color: #6e478b !important;
+}
+
+.ds-single-event__featured-inner {
+    padding: 48px 16px;
+}
+
+.ds-single-event__title {
+    margin: 0 0 48px;
+    font-family: Roboto, sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 38px !important;
+    color: #151515 !important;
+}
+
+.ds-single-event__detail-text {
+    margin: 0;
+}
+
+.ds-single-event__details {
+    display: grid;
+    row-gap: 16px;
+}
+
+.ds-single-event__details-title {
+    margin: 0;
+    font-family: Roboto, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    color: #151515 !important;
+}
+
+.ds-single-event__content {
+    padding: 48px 16px;
+    display: grid;
+    row-gap: 32px;
+}
+
+.ds-single-event__content-title {
+    margin: 0;
+    font-family: Roboto, sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    color: #151515 !important;
+    text-transform: uppercase;
+}
+
+.ds-single-event__content-list {
+    margin-top: 16px;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+@media screen and (min-width: 576px) {
+    .ds-single-event__details {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ds-single-event__details {
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 24px;
+    }
+
+    .ds-single-event__detail {
+        border-left: 1px solid #151515;
+        padding-left: 12px;
+    }
+
+    .ds-single-event__breadcrumbs {
+        padding: 0 32px 16px;
+    }
+
+    .ds-single-event__featured-inner {
+        padding: 48px 32px;
+    }
+    .ds-single-event__content {
+        padding: 48px 32px;
+    }
+}
+
+@media screen and (min-width: 1540px) {
+    .ds-single-event__breadcrumbs {
+        padding: 0 0 16px;
+        max-width: 1450px;
+        margin: 0 auto;
+    }
+
+    .ds-single-event__featured-inner {
+        padding: 48px 0;
+        max-width: 1450px;
+        margin: 0 auto;
+    }
+    .ds-single-event__content {
+        padding: 48px 0;
+        max-width: 1450px;
+        margin: 0 auto;
+    }
+}
+
+

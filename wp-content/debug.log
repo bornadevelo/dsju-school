@@ -1,0 +1,33 @@
+[29-Oct-2023 09:40:58 UTC] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/wp-content/themes/hello-elementor/includes/dsju-single-event.php on line 13
+[29-Oct-2023 09:40:58 UTC] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/wp-content/themes/hello-elementor/includes/dsju-single-event.php on line 13
+[29-Oct-2023 21:50:16 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in /Applications/MAMP/htdocs/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 151
+[29-Oct-2023 21:50:52 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in /Applications/MAMP/htdocs/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 151
+[29-Oct-2023 21:51:51 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in /Applications/MAMP/htdocs/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 151
+[29-Oct-2023 21:52:40 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in /Applications/MAMP/htdocs/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 151
+[29-Oct-2023 21:59:29 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in /Applications/MAMP/htdocs/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 151
+[29-Oct-2023 22:00:32 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in /Applications/MAMP/htdocs/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 151
+[29-Oct-2023 22:10:57 UTC] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/wp-content/themes/hello-elementor/includes/dsju-single-event.php on line 21
+[29-Oct-2023 22:10:57 UTC] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/wp-content/themes/hello-elementor/includes/dsju-single-event.php on line 21
+[29-Oct-2023 22:11:54 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in /Applications/MAMP/htdocs/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 151
+[29-Oct-2023 22:17:14 UTC] PHP Notice:  Trying to get property 'post_type' of non-object in /Applications/MAMP/htdocs/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 151
+[29-Oct-2023 22:35:51 UTC] PHP Notice:  Undefined index: sort in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 66
+[29-Oct-2023 22:35:51 UTC] PHP Notice:  Undefined index: status in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 67
+[29-Oct-2023 22:35:55 UTC] PHP Notice:  Undefined index: sort in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 66
+[29-Oct-2023 22:35:55 UTC] PHP Notice:  Undefined index: status in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 67
+[29-Oct-2023 22:36:10 UTC] PHP Notice:  Undefined index: status in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 67
+[29-Oct-2023 22:36:16 UTC] PHP Notice:  Undefined index: status in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 67
+[29-Oct-2023 22:41:24 UTC] PHP Notice:  Undefined index: status in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 67
+[29-Oct-2023 22:52:21 UTC] PHP Notice:  Undefined index: sort in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 66
+[29-Oct-2023 22:52:21 UTC] PHP Notice:  Undefined index: status in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 67
+[29-Oct-2023 22:55:44 UTC] PHP Notice:  Undefined index: sort in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 66
+[29-Oct-2023 22:55:44 UTC] PHP Notice:  Undefined index: status in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 67
+[29-Oct-2023 22:56:43 UTC] PHP Notice:  Undefined index: sort in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 66
+[29-Oct-2023 22:56:43 UTC] PHP Notice:  Undefined index: status in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 67
+[29-Oct-2023 22:57:02 UTC] PHP Notice:  Undefined index: sort in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 66
+[29-Oct-2023 22:57:02 UTC] PHP Notice:  Undefined index: status in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 67
+[29-Oct-2023 23:02:54 UTC] PHP Notice:  Undefined index: sort in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 66
+[29-Oct-2023 23:02:54 UTC] PHP Notice:  Undefined index: status in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 67
+[29-Oct-2023 23:04:29 UTC] PHP Notice:  Undefined index: sort in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 66
+[29-Oct-2023 23:04:29 UTC] PHP Notice:  Undefined index: status in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 67
+[29-Oct-2023 23:06:44 UTC] PHP Notice:  Undefined index: sort in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 66
+[29-Oct-2023 23:06:44 UTC] PHP Notice:  Undefined index: status in /Applications/MAMP/htdocs/wp-content/plugins/dsju-events/dsju-events.php on line 67

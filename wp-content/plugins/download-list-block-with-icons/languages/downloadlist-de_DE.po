@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Download List\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/downloadlist\n"
+"Last-Translator: Thomas Zwirner <info@thomaszwirner.de>\n"
+"Language-Team: Thomas Zwirner\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-10-17T20:36:45+02:00\n"
+"PO-Revision-Date: \n"
+"Language: de_DE\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. Plugin Name of the plugin
+msgid "Download List Block with Icons"
+msgstr "Download Liste mit Icons"
+
+#. Author of the plugin
+msgid "Thomas Zwirner"
+msgstr "Thomas Zwirner"
+
+#. Author URI of the plugin
+msgid "https://www.thomaszwirner.de"
+msgstr "https://www.thomaszwirner.de"
+
+#: block.json
+msgctxt "block title"
+msgid "Download List Block with Icons"
+msgstr "Download Liste mit Icons"
+
+#: block.json
+msgctxt "block description"
+msgid "Provides a Gutenberg block for capturing a download list with file type specific icons."
+msgstr "Stellt einen Gutenberg-Block für die Erfassung einer Download-Liste mit Dateityp-spezifischen Icons bereit."
+
+#~ msgid "Download List Block with Icons for Gutenberg"
+#~ msgstr "Download Liste Block mit Icons für Gutenberg"

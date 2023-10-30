@@ -1,0 +1,627 @@
+# Translation of Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release) in Croatian
+# This file is distributed under the same license as the Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-29 12:29:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: hr\n"
+"Project-Id-Version: Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release)\n"
+
+#: classes/PodsInit.php:2247 src/Pods/Admin/Config/Pod.php:411
+msgid "Uploaded to this %s"
+msgstr "Učitaj u %s"
+
+#: classes/PodsInit.php:2244 src/Pods/Admin/Config/Pod.php:384
+msgid "%s Archives"
+msgstr "%s arhiva"
+
+#: classes/PodsInit.php:2246 src/Pods/Admin/Config/Pod.php:402
+msgid "Insert into %s"
+msgstr "Ubaci u %s"
+
+#: classes/PodsInit.php:2243
+msgid "Use as featured image"
+msgstr "Koristite kao sadržajnu sliku"
+
+#: classes/PodsInit.php:2241
+msgid "Set featured image"
+msgstr "Postavi istaknutu sliku"
+
+#: classes/PodsInit.php:2242
+msgid "Remove featured image"
+msgstr "Ukloni istaknutu sliku"
+
+#: ui/admin/setup-add.php:417
+msgid "Post Type"
+msgstr "Tip objave"
+
+#: src/Pods/Admin/Config/Pod.php:938
+msgid "Author"
+msgstr "Autor"
+
+#: classes/PodsInit.php:2240 src/Pods/Admin/Config/Pod.php:420
+#: src/Pods/Admin/Config/Pod.php:943
+msgid "Featured Image"
+msgstr "Istaknuta slika"
+
+#: src/Pods/Admin/Config/Pod.php:928 ui/admin/widgets/field.php:15
+#: ui/admin/widgets/form.php:15 ui/admin/widgets/list.php:17
+#: ui/admin/widgets/single.php:17 ui/admin/widgets/view.php:15
+msgid "Title"
+msgstr "Naslov"
+
+#: ui/admin/setup-add.php:232
+msgid "Menu Label"
+msgstr "Oznaka izbornika"
+
+#: src/Pods/Admin/Config/Field.php:577
+msgid "Unique"
+msgstr "Jedinstven"
+
+#: src/Pods/Whatsit/Block.php:41
+msgid "Options"
+msgstr "Opcije"
+
+#: classes/fields/currency.php:123 components/I18n/I18n.php:826
+#: src/Pods/Admin/Config/Group.php:229 ui/fields/color.php:15
+msgid "Default"
+msgstr "Standardno"
+
+#: classes/fields/color.php:39 classes/fields/color.php:97
+#: ui/fields/color.php:16
+msgid "Select Color"
+msgstr "Odaberi boju"
+
+#: ui/fields/color.php:17
+msgid "Current Color"
+msgstr "Trenutna boja"
+
+#: ui/admin/view.php:55 ui/forms/type/post.php:84
+msgid "Last Modified"
+msgstr "Zadnji put promijenjeno"
+
+#: components/Migrate-Packages/ui/wizard.php:52
+msgid "Import"
+msgstr "Uvezi"
+
+#: components/Roles/ui/edit.php:46 ui/forms/form.php:174
+msgid "Save"
+msgstr "Spremi"
+
+#: includes/data.php:2020 tribe-common/src/views/promoter/auth.php:80
+msgid "and"
+msgstr "i"
+
+#: ui/admin/setup-add.php:166 ui/admin/setup-add.php:364
+msgid "Content Type"
+msgstr "Tip sadržaja"
+
+#: ui/admin/setup-add.php:99
+msgid "Configure"
+msgstr "Podesi"
+
+#: components/Migrate-Packages/ui/wizard.php:381
+msgid "Continue"
+msgstr "Nsstavi"
+
+#: components/Advanced-Relationships.php:63
+msgid "Themes"
+msgstr "Teme"
+
+#: classes/fields/pick.php:3615
+#: tribe-common/src/Tribe/Languages/Locations.php:272
+msgid "Serbia"
+msgstr "Srbija"
+
+#: classes/fields/pick.php:3621
+#: tribe-common/src/Tribe/Languages/Locations.php:278
+msgid "Slovenia"
+msgstr "Slovenija"
+
+#: classes/fields/pick.php:3613
+#: tribe-common/src/Tribe/Languages/Locations.php:270
+msgid "Saudi Arabia"
+msgstr "Saudijska Arabija"
+
+#: classes/fields/pick.php:3620
+msgid "Slovakia"
+msgstr "Slovačka"
+
+#: classes/fields/pick.php:3627
+#: tribe-common/src/Tribe/Languages/Locations.php:283
+msgid "Spain"
+msgstr "Španjolska"
+
+#: classes/fields/pick.php:3633
+#: tribe-common/src/Tribe/Languages/Locations.php:289
+msgid "Sweden"
+msgstr "Švedska"
+
+#: classes/fields/pick.php:3634
+#: tribe-common/src/Tribe/Languages/Locations.php:290
+msgid "Switzerland"
+msgstr "Švicarska"
+
+#: classes/fields/pick.php:3647
+#: tribe-common/src/Tribe/Languages/Locations.php:301
+msgid "Turkey"
+msgstr "Turska"
+
+#: classes/fields/pick.php:3655
+#: tribe-common/src/Tribe/Languages/Locations.php:306
+msgid "Ukraine"
+msgstr "Ukrajina"
+
+#: classes/fields/pick.php:3645
+#: tribe-common/src/Tribe/Languages/Locations.php:299
+msgid "Trinidad and Tobago"
+msgstr "Trinidad i Tobago"
+
+#: components/Builder/modules/list/PodsBuilderModuleList.php:117
+#: components/Builder/modules/list/PodsBuilderModuleList.php:134
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:121
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:138
+#: components/Templates/class-pods_templates.php:210
+#: src/Pods/Blocks/Types/Item_List.php:219
+#: src/Pods/Blocks/Types/Item_Single.php:181 ui/admin/shortcode.php:391
+#: ui/admin/shortcode.php:407 ui/admin/widgets/list.php:51
+#: ui/admin/widgets/list.php:67 ui/admin/widgets/single.php:67
+#: ui/admin/widgets/single.php:83
+msgid "Template"
+msgstr "Predložak"
+
+#: classes/fields/pick.php:3635
+msgid "Syria"
+msgstr "Sirija"
+
+#: classes/widgets/PodsWidgetForm.php:38 classes/widgets/PodsWidgetForm.php:59
+#: classes/widgets/PodsWidgetForm.php:74
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:47
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:145
+msgid "Submit"
+msgstr "Pošalji"
+
+#: classes/fields/wysiwyg.php:44 src/Pods/Admin/Config/Pod.php:933
+msgid "Editor"
+msgstr "Urednik"
+
+#: components/Migrate-CPTUI/ui/wizard.php:154
+#: components/Migrate-Packages/ui/wizard.php:381
+#: components/Roles/ui/add.php:142 ui/admin/setup-add.php:507
+msgid "Finished"
+msgstr "Završeno"
+
+#: classes/fields/pick.php:579 src/Pods/Admin/Config/Pod.php:1317
+#: src/Pods/Admin/Config/Pod.php:1318
+msgid "Post Types"
+msgstr "Vrste objava"
+
+#: classes/fields/pick.php:627 src/Pods/Admin/Config/Pod.php:1024
+#: src/Pods/Admin/Config/Pod.php:1025
+msgid "Taxonomies"
+msgstr "Taksonomije"
+
+#: classes/fields/pick.php:3465
+msgid "Croatia"
+msgstr "Hrvatska"
+
+#: classes/fields/pick.php:3436
+#: tribe-common/src/Tribe/Languages/Locations.php:107
+msgid "Bosnia and Herzegovina"
+msgstr "Bosna i Hercegovina"
+
+#: classes/fields/pick.php:3542
+msgid "Macedonia"
+msgstr "Makedonija"
+
+#: classes/fields/pick.php:3411
+#: tribe-common/src/Tribe/Languages/Locations.php:82
+msgid "Albania"
+msgstr "Albanija"
+
+#: classes/fields/pick.php:3412
+#: tribe-common/src/Tribe/Languages/Locations.php:83
+msgid "Algeria"
+msgstr "Alžir"
+
+#: classes/fields/pick.php:3414
+#: tribe-common/src/Tribe/Languages/Locations.php:85
+msgid "Andorra"
+msgstr "Andora"
+
+#: classes/fields/pick.php:3422
+#: tribe-common/src/Tribe/Languages/Locations.php:93
+msgid "Australia"
+msgstr "Australija"
+
+#: classes/fields/pick.php:3423
+#: tribe-common/src/Tribe/Languages/Locations.php:94
+msgid "Austria"
+msgstr "Austrija"
+
+#: classes/fields/pick.php:3424
+#: tribe-common/src/Tribe/Languages/Locations.php:95
+msgid "Azerbaijan"
+msgstr "Azerbajdžan"
+
+#: classes/fields/pick.php:3429
+#: tribe-common/src/Tribe/Languages/Locations.php:100
+msgid "Belarus"
+msgstr "Bjelorusija"
+
+#: classes/fields/pick.php:3430
+#: tribe-common/src/Tribe/Languages/Locations.php:101
+msgid "Belgium"
+msgstr "Belgija"
+
+#: classes/fields/pick.php:3444
+#: tribe-common/src/Tribe/Languages/Locations.php:113
+msgid "Bulgaria"
+msgstr "Bugarska"
+
+#: classes/fields/pick.php:3449
+#: tribe-common/src/Tribe/Languages/Locations.php:118
+msgid "Canada"
+msgstr "Kanada"
+
+#: classes/fields/pick.php:3456
+#: tribe-common/src/Tribe/Languages/Locations.php:124
+msgid "China"
+msgstr "Kina"
+
+#: classes/fields/pick.php:3468
+#: tribe-common/src/Tribe/Languages/Locations.php:139
+msgid "Czech Republic"
+msgstr "Češka"
+
+#: classes/fields/pick.php:3470
+#: tribe-common/src/Tribe/Languages/Locations.php:140
+msgid "Denmark"
+msgstr "Danska"
+
+#: classes/fields/pick.php:3481
+#: tribe-common/src/Tribe/Languages/Locations.php:150
+msgid "Estonia"
+msgstr "Estonija"
+
+#: classes/fields/pick.php:3482
+#: tribe-common/src/Tribe/Languages/Locations.php:151
+msgid "Ethiopia"
+msgstr "Etiopija"
+
+#: classes/fields/pick.php:3486
+#: tribe-common/src/Tribe/Languages/Locations.php:155
+msgid "Finland"
+msgstr "Finska"
+
+#: classes/fields/pick.php:3487
+#: tribe-common/src/Tribe/Languages/Locations.php:156
+msgid "France"
+msgstr "Francuska"
+
+#: classes/fields/pick.php:3495
+#: tribe-common/src/Tribe/Languages/Locations.php:163
+msgid "Germany"
+msgstr "Njemačka"
+
+#: classes/fields/pick.php:3498
+#: tribe-common/src/Tribe/Languages/Locations.php:166
+msgid "Greece"
+msgstr "Grčka"
+
+#: classes/fields/pick.php:3499
+#: tribe-common/src/Tribe/Languages/Locations.php:167
+msgid "Greenland"
+msgstr "Grenland"
+
+#: classes/fields/pick.php:3512
+#: tribe-common/src/Tribe/Languages/Locations.php:180
+msgid "Hungary"
+msgstr "Mađarska"
+
+#: classes/fields/pick.php:3513
+#: tribe-common/src/Tribe/Languages/Locations.php:181
+msgid "Iceland"
+msgstr "Island"
+
+#: classes/fields/pick.php:3514
+#: tribe-common/src/Tribe/Languages/Locations.php:182
+msgid "India"
+msgstr "Indija"
+
+#: classes/fields/pick.php:3520
+#: tribe-common/src/Tribe/Languages/Locations.php:187
+msgid "Israel"
+msgstr "Izrael"
+
+#: classes/fields/pick.php:3521
+#: tribe-common/src/Tribe/Languages/Locations.php:188
+msgid "Italy"
+msgstr "Italija"
+
+#: classes/fields/pick.php:3530
+#: tribe-common/src/Tribe/Languages/Locations.php:197
+msgid "Kuwait"
+msgstr "Kuvajt"
+
+#: classes/fields/pick.php:3533
+#: tribe-common/src/Tribe/Languages/Locations.php:200
+msgid "Latvia"
+msgstr "Latvija"
+
+#: classes/fields/pick.php:3534
+#: tribe-common/src/Tribe/Languages/Locations.php:201
+msgid "Lebanon"
+msgstr "Libanon"
+
+#: classes/fields/pick.php:3537
+#: tribe-common/src/Tribe/Languages/Locations.php:204
+msgid "Libya"
+msgstr "Libija"
+
+#: classes/fields/pick.php:3538
+#: tribe-common/src/Tribe/Languages/Locations.php:205
+msgid "Liechtenstein"
+msgstr "Lihtenštajn"
+
+#: classes/fields/pick.php:3539
+#: tribe-common/src/Tribe/Languages/Locations.php:206
+msgid "Lithuania"
+msgstr "Litva"
+
+#: classes/fields/pick.php:3540
+#: tribe-common/src/Tribe/Languages/Locations.php:207
+msgid "Luxembourg"
+msgstr "Luksemburg"
+
+#: classes/fields/pick.php:3555
+#: tribe-common/src/Tribe/Languages/Locations.php:220
+msgid "Mexico"
+msgstr "Meksiko"
+
+#: classes/fields/pick.php:3559
+#: tribe-common/src/Tribe/Languages/Locations.php:223
+msgid "Monaco"
+msgstr "Monako"
+
+#: classes/fields/pick.php:3561
+#: tribe-common/src/Tribe/Languages/Locations.php:225
+msgid "Montenegro"
+msgstr "Crna Gora"
+
+#: classes/fields/pick.php:3563
+#: tribe-common/src/Tribe/Languages/Locations.php:227
+msgid "Morocco"
+msgstr "Maroko"
+
+#: classes/fields/pick.php:3569
+#: tribe-common/src/Tribe/Languages/Locations.php:233
+msgid "Netherlands"
+msgstr "Nizozemska"
+
+#: classes/fields/pick.php:3573
+#: tribe-common/src/Tribe/Languages/Locations.php:235
+msgid "New Zealand"
+msgstr "Novi Zeland"
+
+#: classes/fields/pick.php:3579
+msgid "North Korea"
+msgstr "Sjeverna Koreja"
+
+#: classes/fields/pick.php:3582
+#: tribe-common/src/Tribe/Languages/Locations.php:243
+msgid "Norway"
+msgstr "Norveška"
+
+#: classes/fields/pick.php:3596
+#: tribe-common/src/Tribe/Languages/Locations.php:253
+msgid "Poland"
+msgstr "Poljska"
+
+#: classes/fields/pick.php:3600
+#: tribe-common/src/Tribe/Languages/Locations.php:258
+msgid "Romania"
+msgstr "Rumunjska"
+
+#: classes/fields/pick.php:3601
+msgid "Russia"
+msgstr "Rusija"
+
+#: classes/fields/pick.php:634 components/Roles/Roles.php:94
+#: ui/admin/setup-add.php:373
+msgid "Users"
+msgstr "Korisnici"
+
+#: classes/fields/pick.php:640
+msgid "User Roles"
+msgstr "Korisničke uloge"
+
+#: classes/fields/pick.php:3413
+#: tribe-common/src/Tribe/Languages/Locations.php:84
+msgid "American Samoa"
+msgstr "American Samoa"
+
+#: classes/fields/pick.php:3433
+#: tribe-common/src/Tribe/Languages/Locations.php:104
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: classes/fields/pick.php:3452
+#: tribe-common/src/Tribe/Languages/Locations.php:120
+msgid "Cayman Islands"
+msgstr "Kajmanski Otoci"
+
+#: classes/fields/pick.php:3502
+#: tribe-common/src/Tribe/Languages/Locations.php:170
+msgid "Guam"
+msgstr "Guam"
+
+#: classes/fields/pick.php:3442
+msgid "British Virgin Islands"
+msgstr "Britanski Djevičanski Otoci"
+
+#: classes/PodsUI.php:4780 classes/PodsUI.php:4796
+msgid "of"
+msgstr "od"
+
+#: classes/fields/boolean.php:58 classes/fields/boolean.php:223
+#: classes/fields/boolean.php:246 classes/PodsAdmin.php:3216
+#: classes/PodsAdmin.php:3220 classes/PodsAdmin.php:3228
+#: classes/PodsAdmin.php:3232 classes/PodsAdmin.php:3236
+#: classes/PodsAdmin.php:3240 classes/PodsAdmin.php:3244
+#: classes/PodsAdmin.php:3248 classes/PodsAdmin.php:3252
+#: classes/PodsAdmin.php:3256 classes/PodsAdmin.php:3260
+#: classes/PodsAdmin.php:3272 classes/PodsAdmin.php:3280
+#: classes/PodsAdmin.php:3284 classes/PodsAdmin.php:3288
+#: classes/PodsAdmin.php:3292 classes/PodsAdmin.php:3296
+#: classes/PodsAdmin.php:3300 classes/PodsAdmin.php:3304
+#: classes/PodsAdmin.php:3308 classes/PodsAdmin.php:3316
+#: classes/PodsUI.php:2896 classes/PodsUI.php:3325 classes/PodsUI.php:3576
+#: src/Pods/Whatsit/Block_Field.php:285
+msgid "No"
+msgstr "Ne"
+
+#: classes/PodsUI.php:3047 tribe-common/src/Tribe/Dialog/View.php:228
+msgid "Cancel"
+msgstr "Prekini"
+
+#: classes/fields/boolean.php:53 classes/fields/boolean.php:222
+#: classes/fields/boolean.php:245 classes/PodsAdmin.php:3216
+#: classes/PodsAdmin.php:3220 classes/PodsAdmin.php:3228
+#: classes/PodsAdmin.php:3232 classes/PodsAdmin.php:3236
+#: classes/PodsAdmin.php:3240 classes/PodsAdmin.php:3244
+#: classes/PodsAdmin.php:3248 classes/PodsAdmin.php:3252
+#: classes/PodsAdmin.php:3256 classes/PodsAdmin.php:3260
+#: classes/PodsAdmin.php:3272 classes/PodsAdmin.php:3280
+#: classes/PodsAdmin.php:3284 classes/PodsAdmin.php:3288
+#: classes/PodsAdmin.php:3292 classes/PodsAdmin.php:3296
+#: classes/PodsAdmin.php:3300 classes/PodsAdmin.php:3304
+#: classes/PodsAdmin.php:3308 classes/PodsAdmin.php:3316
+#: classes/PodsUI.php:2895 classes/PodsUI.php:3324 classes/PodsUI.php:3575
+#: src/Pods/Whatsit/Block_Field.php:281
+msgid "Yes"
+msgstr "Da"
+
+#: classes/PodsAdmin.php:2372 src/Pods/Admin/Config/Field.php:145
+msgid "Description"
+msgstr "Opis"
+
+#: classes/PodsUI.php:3719
+msgid "No %s found"
+msgstr "%s ne postoji"
+
+#: classes/fields/pick.php:164
+msgid "Multiple Select"
+msgstr "Odaberi više"
+
+#: classes/fields/currency.php:69 classes/fields/number.php:49
+msgid "Slider"
+msgstr "Klizač"
+
+#: classes/fields/boolean.php:44
+msgid "Checkbox"
+msgstr "Potvrdni okvir"
+
+#: classes/PodsAdmin.php:3018 classes/PodsUI.php:4455
+msgid "Enable"
+msgstr "Uključi"
+
+#: classes/fields/color.php:45 classes/fields/color.php:100
+#: classes/PodsUI.php:3477 classes/PodsUI.php:3536 classes/PodsUI.php:3585
+#: classes/PodsUI.php:3624 tribe-common/src/Tribe/Main.php:347
+#: ui/fields/color.php:14
+msgid "Clear"
+msgstr "Obriši"
+
+#: classes/PodsI18n.php:169 classes/PodsUI.php:745 classes/PodsUI.php:748
+#: classes/PodsUI.php:4386 src/Pods/Admin/Config/Pod.php:241
+#: src/Pods/Blocks/Types/View.php:159
+#: tribe-common/src/admin-views/event-log.php:65
+msgid "View"
+msgstr "Pregled"
+
+#: classes/PodsAdmin.php:555 classes/PodsAdmin.php:576
+#: tribe-common/src/Tribe/Settings.php:254 ui/admin/components-admin.php:10
+#: ui/admin/settings-settings.php:68 ui/admin/settings-settings.php:72
+#: ui/admin/settings.php:11 ui/admin/upgrade/upgrade_2_0_0.php:203
+msgid "Settings"
+msgstr "Postavke izbornika"
+
+#: classes/PodsAdmin.php:930 components/Roles/Roles.php:90
+#: components/Roles/ui/add.php:40 src/Pods/Admin/Config/Field.php:126
+#: src/Pods/Admin/Config/Group.php:91 src/Pods/Admin/Config/Pod.php:137
+msgid "Label"
+msgstr "Oznaka"
+
+#: classes/fields/pick.php:248 classes/fields/pick.php:935
+#: classes/PodsAdmin.php:282 classes/PodsAdmin.php:309
+#: classes/PodsAdmin.php:310 classes/PodsAdmin.php:356
+#: classes/PodsAdmin.php:375 classes/PodsAdmin.php:543
+#: classes/PodsField.php:580 classes/PodsI18n.php:151 classes/PodsInit.php:2226
+#: classes/PodsUI.php:742 classes/PodsUI.php:767
+#: src/Pods/Admin/Config/Field.php:237 src/Pods/Admin/Config/Pod.php:159
+#: src/Pods/Admin/Config/Pod.php:1480
+msgid "Add New"
+msgstr "Unesite novo"
+
+#: classes/Pods.php:4467 components/Migrate-Packages/ui/wizard.php:65
+#: src/Pods/Admin/Config/Pod.php:1485
+msgid "Export"
+msgstr "Izvoz"
+
+#: classes/PodsAdmin.php:561 classes/PodsAdmin.php:582
+#: tribe-common/src/Tribe/Settings_Manager.php:323
+msgid "Help"
+msgstr "Pomoć"
+
+#: classes/PodsAdmin.php:280 classes/PodsAdmin.php:354 classes/PodsI18n.php:171
+#: classes/PodsInit.php:2229 classes/PodsUI.php:743 classes/PodsUI.php:4401
+#: src/Pods/Admin/Config/Pod.php:192 src/Pods/Admin/Config/Pod.php:1481
+msgid "Edit"
+msgstr "Uredi"
+
+#: classes/Pods.php:3998 classes/PodsAdmin.php:778 classes/PodsForm.php:419
+#: tribe-common/src/Tribe/Settings.php:377 ui/admin/components-admin.php:107
+msgid "Save Changes"
+msgstr "Spremi izmjene"
+
+#: src/Pods/Admin/Config/Field.php:314 src/Pods/Admin/Config/Group.php:125
+msgid "Visibility"
+msgstr "Vidljivost"
+
+#: classes/Pods.php:3456 classes/PodsI18n.php:173 classes/PodsUI.php:747
+#: classes/PodsUI.php:2959 classes/PodsUI.php:3234
+#: src/Pods/Admin/Config/Pod.php:312
+msgid "Search"
+msgstr "Traži"
+
+#: classes/PodsAdmin.php:2397 src/Pods/Admin/Config/Field.php:52
+#: src/Pods/Admin/Config/Group.php:24 src/Pods/Admin/Config/Group.php:209
+#: ui/admin/setup-add.php:261 ui/admin/setup-add.php:465
+msgid "Advanced"
+msgstr "Napredno"
+
+#: src/Pods/Admin/Config/Pod.php:54
+msgid "Labels"
+msgstr "Etiketa"
+
+#: classes/PodsAdmin.php:350 classes/PodsAdmin.php:376 classes/PodsUI.php:741
+#: components/Roles/ui/edit.php:38 src/Pods/Admin/Config/Pod.php:272
+#: tribe-common/src/admin-views/app-shop.php:86 ui/admin/view.php:16
+#: ui/forms/type/post.php:45
+msgid "Manage"
+msgstr "Upravljanje"
+
+#: classes/Pods.php:4474 classes/PodsAdmin.php:1318 classes/PodsUI.php:4432
+#: src/Pods/Admin/Config/Pod.php:1483 ui/admin/view.php:80
+#: ui/forms/type/post.php:129
+msgid "Delete"
+msgstr "Izbriši"
+
+#: classes/PodsAPI.php:932 classes/PodsAPI.php:943
+msgid "Open"
+msgstr "Otvori"

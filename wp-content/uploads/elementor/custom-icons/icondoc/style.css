@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'icondoc';
+  src:  url('fonts/icondoc.eot?twhjn8');
+  src:  url('fonts/icondoc.eot?twhjn8#iefix') format('embedded-opentype'),
+    url('fonts/icondoc.ttf?twhjn8') format('truetype'),
+    url('fonts/icondoc.woff?twhjn8') format('woff'),
+    url('fonts/icondoc.svg?twhjn8#icondoc') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icondoc-"], [class*=" icondoc-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icondoc' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icondoc-file:before {
+  content: "\e900";
+}
+.icondoc-add-file:before {
+  content: "\e901";
+}
+.icondoc-doc:before {
+  content: "\e902";
+}
+.icondoc-txt-file:before {
+  content: "\e903";
+}
+.icondoc-zip:before {
+  content: "\e904";
+}
+.icondoc-download:before {
+  content: "\e905";
+}
+.icondoc-upload:before {
+  content: "\e906";
+}
+.icondoc-archive:before {
+  content: "\e907";
+}
+.icondoc-folder:before {
+  content: "\e908";
+}
+.icondoc-search:before {
+  content: "\e909";
+}
+.icondoc-jpg:before {
+  content: "\e90a";
+}
+.icondoc-download1:before {
+  content: "\e90b";
+}
+.icondoc-upload1:before {
+  content: "\e90c";
+}
+.icondoc-cloud:before {
+  content: "\e90d";
+}
+.icondoc-secure-folder:before {
+  content: "\e90e";
+}
+.icondoc-pdf-file:before {
+  content: "\e90f";
+}
+.icondoc-excel:before {
+  content: "\e910";
+}
+.icondoc-music:before {
+  content: "\e911";
+}
+.icondoc-coding:before {
+  content: "\e912";
+}
+.icondoc-movie:before {
+  content: "\e913";
+}
+.icondoc-video:before {
+  content: "\e914";
+}
+.icondoc-gallery:before {
+  content: "\e915";
+}
+.icondoc-user:before {
+  content: "\e916";
+}
+.icondoc-cabinet:before {
+  content: "\e917";
+}
+.icondoc-alert:before {
+  content: "\e918";
+}
+.icondoc-network:before {
+  content: "\e919";
+}
+.icondoc-exchange:before {
+  content: "\e91a";
+}
+.icondoc-trash:before {
+  content: "\e91b";
+}
+.icondoc-copy:before {
+  content: "\e91c";
+}
+.icondoc-document:before {
+  content: "\e91d";
+}
+.icondoc-save:before {
+  content: "\e91e";
+}
+.icondoc-document1:before {
+  content: "\e91f";
+}
+.icondoc-secure:before {
+  content: "\e920";
+}
+.icondoc-statistics:before {
+  content: "\e921";
+}
+.icondoc-secure1:before {
+  content: "\e922";
+}
+.icondoc-document2:before {
+  content: "\e923";
+}
+.icondoc-certificate:before {
+  content: "\e924";
+}
+.icondoc-medical-report:before {
+  content: "\e925";
+}
+.icondoc-schedule:before {
+  content: "\e926";
+}
+.icondoc-report:before {
+  content: "\e927";
+}
+.icondoc-file-sharing:before {
+  content: "\e928";
+}
+.icondoc-mail:before {
+  content: "\e929";
+}
+.icondoc-briefcase:before {
+  content: "\e92a";
+}
+.icondoc-delete:before {
+  content: "\e92b";
+}
+.icondoc-favourite:before {
+  content: "\e92c";
+}
+.icondoc-subfolder:before {
+  content: "\e92d";
+}
+.icondoc-add-folder:before {
+  content: "\e92e";
+}
+.icondoc-gif-file:before {
+  content: "\e92f";
+}
+.icondoc-file1:before {
+  content: "\e930";
+}
+.icondoc-delete-folder:before {
+  content: "\e931";
+}

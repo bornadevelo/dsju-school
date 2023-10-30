@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?6k8pdl');
+  src:  url('fonts/icomoon.eot?6k8pdl#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?6k8pdl') format('truetype'),
+    url('fonts/icomoon.woff?6k8pdl') format('woff'),
+    url('fonts/icomoon.svg?6k8pdl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-id-card:before {
+  content: "\e900";
+}
+.icon-audio-book:before {
+  content: "\e901";
+}
+.icon-computer:before {
+  content: "\e902";
+}
+.icon-tuition:before {
+  content: "\e903";
+}
+.icon-test:before {
+  content: "\e904";
+}
+.icon-notebook:before {
+  content: "\e905";
+}
+.icon-folder:before {
+  content: "\e906";
+}
+.icon-locker:before {
+  content: "\e907";
+}
+.icon-book:before {
+  content: "\e908";
+}
+.icon-stationery:before {
+  content: "\e909";
+}
+.icon-research:before {
+  content: "\e90a";
+}
+.icon-graduated:before {
+  content: "\e90b";
+}
+.icon-college:before {
+  content: "\e90c";
+}
+.icon-graduated1:before {
+  content: "\e90d";
+}
+.icon-mail:before {
+  content: "\e90e";
+}
+.icon-desk-chair:before {
+  content: "\e90f";
+}
+.icon-lectern:before {
+  content: "\e910";
+}
+.icon-backpack:before {
+  content: "\e911";
+}
+.icon-student:before {
+  content: "\e912";
+}
+.icon-teach:before {
+  content: "\e913";
+}
+.icon-student1:before {
+  content: "\e914";
+}
+.icon-online-education:before {
+  content: "\e915";
+}
+.icon-exam:before {
+  content: "\e916";
+}
+.icon-online-learning:before {
+  content: "\e917";
+}
+.icon-scholarship:before {
+  content: "\e918";
+}
+.icon-lecturer:before {
+  content: "\e919";
+}
+.icon-chemistry:before {
+  content: "\e91a";
+}
+.icon-math:before {
+  content: "\e91b";
+}
+.icon-coding:before {
+  content: "\e91c";
+}
+.icon-medal:before {
+  content: "\e91d";
+}
+.icon-test1:before {
+  content: "\e91e";
+}
+.icon-certificate:before {
+  content: "\e91f";
+}
+.icon-chemical:before {
+  content: "\e920";
+}
+.icon-study-time:before {
+  content: "\e921";
+}
+.icon-robotics:before {
+  content: "\e922";
+}
+.icon-math1:before {
+  content: "\e923";
+}
+.icon-online-learning1:before {
+  content: "\e924";
+}
+.icon-task:before {
+  content: "\e925";
+}
+.icon-online-test:before {
+  content: "\e926";
+}
+.icon-homework:before {
+  content: "\e927";
+}
+.icon-library:before {
+  content: "\e928";
+}
+.icon-microscope:before {
+  content: "\e929";
+}
+.icon-stationery1:before {
+  content: "\e92a";
+}
+.icon-study:before {
+  content: "\e92b";
+}
+.icon-university:before {
+  content: "\e92c";
+}
+.icon-thesis:before {
+  content: "\e92d";
+}
+.icon-lecture:before {
+  content: "\e92e";
+}
+.icon-online-library:before {
+  content: "\e92f";
+}
+.icon-idea:before {
+  content: "\e930";
+}
+.icon-location:before {
+  content: "\e931";
+}

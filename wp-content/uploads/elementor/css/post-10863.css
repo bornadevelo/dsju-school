@@ -1,0 +1,5 @@
+.elementor-10863 .elementor-element.elementor-element-5cb1cbb:not(.elementor-motion-effects-element-type-background), .elementor-10863 .elementor-element.elementor-element-5cb1cbb > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#EEEEEE;}.elementor-10863 .elementor-element.elementor-element-5cb1cbb{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-10863 .elementor-element.elementor-element-5cb1cbb > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}@media(max-width:767px){.elementor-10863 .elementor-element.elementor-element-5cb1cbb > .elementor-container{max-width:500px;}}/* Start custom CSS for column, class: .elementor-element-8b3cf68 */@media (max-width: 767px) {
+    .program-wrapper .bijeli-dio {width: 100% !important;}
+    .program-wrapper .sivi-dio {width: 100% !important;}
+    .program-wrapper .sivi-dio h2 {margin-top: 25px;}
+}/* End custom CSS */
