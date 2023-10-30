@@ -15,6 +15,7 @@ for ($i = 0; $i < count($startDates); $i++){
 $eventVenueNames = get_post_meta(get_the_ID(), "_EventVenueName");
 $eventVenueAddresses = get_post_meta(get_the_ID(), "_EventVenueAddress");
 $eventVenueCities = get_post_meta(get_the_ID(), "_EventVenueCity");
+$eventRegistrationLink = get_post_meta(get_the_ID(), "_VenueURL", true);
 
 $locations = [];
 for ($i = 0; $i < count($eventVenueNames); $i++){
@@ -129,4 +130,5 @@ $institutions = get_post_meta($eventId, "_EventInstitution");
             </div>
         <?php } ?>
     </div>
+    <a href="<?php echo $eventRegistrationLink; ?>">Prijava</a>
 </section>
