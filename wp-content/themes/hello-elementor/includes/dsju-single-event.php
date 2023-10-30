@@ -36,8 +36,10 @@ $trainersFormatted = rtrim($trainersFormatted, ', ');
 
 $organizerFullName = get_post_meta($eventId, "_EventOrganizerFullName", true);
 $organizerEmail = get_post_meta($eventId, "_OrganizerEmail", true);
+$organizerPhone = get_post_meta($eventId, "_VenuePhone", true);
 $contact = $organizerFullName;
-$contact .= $organizerEmail !== '' ? ', ' . $organizerEmail : '';
+$contact .= $organizerEmail !== '' ? '<br>' . $organizerEmail : '';
+$contact .= $organizerPhone ? '<br>' . $organizerEmail : '';
 
 $goalsAndPurpose = get_post_meta($eventId, "_EventGoalsAndPurpose", true);
 $content = get_the_content();
@@ -50,8 +52,6 @@ $institutions = get_post_meta($eventId, "_EventInstitution");
     <div class="ds-single-event__breadcrumbs">
         <div class="ds-breadcrumb">
             <a href="<?php echo get_site_url(); ?>" class="ds-breadcrumb__item">Početna stranica</a>
-            &raquo;
-            <a href="<?php echo get_site_url(); ?>/programi-i-usluge" class="ds-breadcrumb__item">Programi i usluge</a>
             &raquo;
             <a href="<?php echo get_site_url(); ?>/programi-i-usluge/raspored" class="ds-breadcrumb__item">Raspored</a>
             &raquo;
